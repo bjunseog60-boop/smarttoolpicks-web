@@ -34,6 +34,25 @@ export const categories = [
 export const guides: StyleGuide[] = [
 
   {
+    slug: 'the-best-crm-for-small-business-boost-sales-customer-growth',
+    title: 'The Best CRM for Small Business: Boost Sales & Customer Growth',
+    category: 'crm-sales',
+    description: 'Hands-on review of the best CRM for small business: HubSpot, Zoho, and Salesforce. Manage leads, automate sales, and drive customer relationship growth.',
+    readTime: '6 min',
+    date: '2026-02-21',
+    tag: 'Editor Pick',
+    emoji: '📈',
+    image: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&h=400&fit=crop',
+    affiliateProducts: [
+      { name: 'HubSpot CRM', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=HubSpot+CRM&tag=smarttoolp-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=200&h=200&fit=crop' },
+      { name: 'Zoho CRM', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Zoho+CRM&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=200&h=200&fit=crop' },
+      { name: 'Salesforce Essentials', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Salesforce+Essentials&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=200&h=200&fit=crop' },
+      { name: 'Pipedrive', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Pipedrive&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=200&h=200&fit=crop' },
+      { name: 'ActiveCampaign', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=ActiveCampaign&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=200&h=200&fit=crop' },
+    ],
+  },
+
+  {
     slug: 'best-project-management-software-agile-teams-2024',
     title: 'Top 10 Project Management Software for Agile Teams in 2024',
     category: 'project-management',
