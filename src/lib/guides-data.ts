@@ -34,6 +34,25 @@ export const categories = [
 export const guides: StyleGuide[] = [
 
   {
+    slug: 'the-rise-of-no-code-ai-tools-build-automate-without-code',
+    title: 'The Rise of No-Code AI Tools: Build & Automate Without Code',
+    category: 'ai-tools',
+    description: 'Discover how no-code AI tools empower you to build smart automations and applications without coding. Hands-on reviews of Zapier, Make, and Airtable.',
+    readTime: '9 min',
+    date: '2026-02-21',
+    tag: 'Trending',
+    emoji: '🤖',
+    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=400&fit=crop',
+    affiliateProducts: [
+      { name: 'Zapier', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Zapier&tag=smarttoolp-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=200&h=200&fit=crop' },
+      { name: 'Make', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Make&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=200&h=200&fit=crop' },
+      { name: 'Airtable', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Airtable&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=200&h=200&fit=crop' },
+      { name: 'OpenAI', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=OpenAI&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=200&h=200&fit=crop' },
+      { name: 'Pabbly Connect', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Pabbly+Connect&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=200&h=200&fit=crop' },
+    ],
+  },
+
+  {
     slug: 'slack-vs-microsoft-teams-best-for-your-business',
     title: 'Slack vs. Microsoft Teams: Which is Best for Your Business?',
     category: 'collaboration',
