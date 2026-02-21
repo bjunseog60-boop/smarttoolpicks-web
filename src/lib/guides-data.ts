@@ -34,6 +34,25 @@ export const categories = [
 export const guides: StyleGuide[] = [
 
   {
+    slug: 'ai-powered-marketing-automation-strategies-platforms',
+    title: 'AI-Powered Marketing Automation: Strategies & Top Platforms',
+    category: 'marketing-tools',
+    description: 'Discover how AI marketing automation drives hyper-personalization and predictive insights. Hands-on review of Salesforce Einstein, Jasper AI, and Adobe Sensei.',
+    readTime: '10 min',
+    date: '2026-02-21',
+    tag: 'Editor Pick',
+    emoji: '🧠',
+    image: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&h=400&fit=crop',
+    affiliateProducts: [
+      { name: 'Salesforce Einstein', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Salesforce+Einstein&tag=smarttoolp-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=200&h=200&fit=crop' },
+      { name: 'Jasper AI', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Jasper+AI&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=200&h=200&fit=crop' },
+      { name: 'Adobe Sensei', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Adobe+Sensei&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=200&h=200&fit=crop' },
+      { name: 'HubSpot AI Tools', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=HubSpot+AI+Tools&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=200&h=200&fit=crop' },
+      { name: 'Oracle Eloqua', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Oracle+Eloqua&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=200&h=200&fit=crop' },
+    ],
+  },
+
+  {
     slug: 'future-proof-your-work-best-productivity-saas-tools-2026',
     title: 'Future-Proof Your Work: Best Productivity SaaS Tools for 2026',
     category: 'productivity',
