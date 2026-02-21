@@ -8,6 +8,7 @@ import sys
 import re
 import tweepy
 import shutil
+import urllib.request
 from dotenv import load_dotenv
 from datetime import datetime
 
@@ -129,6 +130,38 @@ def mark_topic_as_used(keyword):
     with open(TOPICS_FILE, "a", encoding="utf-8") as f:
         f.write(keyword + "\n")
 
+# Verified fallback images (all confirmed 200 OK)
+FALLBACK_IMAGES = [
+    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+    "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=600&h=400&fit=crop",
+    "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=400&fit=crop",
+    "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
+    "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop",
+]
+
+def validate_image_url(url, timeout=10):
+    """Verify image URL returns HTTP 200 via HEAD request."""
+    if not url or not url.startswith("http"):
+        return False
+    try:
+        req = urllib.request.Request(url, method="HEAD")
+        req.add_header("User-Agent", "Mozilla/5.0 ImageValidator/1.0")
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            return resp.status == 200
+    except Exception:
+        return False
+
+def get_valid_image_url(url):
+    """Return url if valid, otherwise return a verified fallback."""
+    if validate_image_url(url):
+        return url
+    print(f"Image URL failed validation: {url}")
+    for fallback in FALLBACK_IMAGES:
+        if validate_image_url(fallback):
+            print(f"Using fallback: {fallback}")
+            return fallback
+    return FALLBACK_IMAGES[0]
+
 def strip_markdown_fences(text):
     """Remove markdown code fences (```json ... ``` etc.) from Gemini responses."""
     stripped = re.sub(r'^```[\w]*\n?', '', text.strip())
@@ -164,7 +197,7 @@ def generate_blog_image(keyword, title):
         print("No image data in response, using fallback")
     except Exception as e:
         print(f"Image generation failed: {e}")
-    return "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=400&fit=crop"
+    return get_valid_image_url(FALLBACK_IMAGES[0])
 
 
 def generate_targeted_blog(keyword):
@@ -283,7 +316,7 @@ def update_site_registry(slug, data):
     date: '{datetime.now().strftime('%Y-%m-%d')}',
     tag: '{data['meta'].get('tag', 'New')}',
     emoji: '{data['meta'].get('emoji', '✨')}',
-    image: '{data.get("image_url", "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=400&fit=crop")}',
+    image: '{get_valid_image_url(data.get("image_url", FALLBACK_IMAGES[0]))}',
     affiliateProducts: [],
   }},
 """
