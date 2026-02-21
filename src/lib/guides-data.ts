@@ -83,7 +83,7 @@ export const guides: StyleGuide[] = [
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
     affiliateProducts: [
       { name: 'GIMP', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=GIMP&tag=smarttoolp-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=200&h=200&fit=crop' },
-      { name: 'Inkscape', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Inkscape&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1581291518633-83b4eef1d2fa?w=200&h=200&fit=crop' },
+      { name: 'Inkscape', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Inkscape&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=200&h=200&fit=crop' },
       { name: 'Canva Free', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Canva+Free&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=200&h=200&fit=crop' },
       { name: 'Adobe Photoshop', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Adobe+Photoshop&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=200&h=200&fit=crop' },
       { name: 'Krita', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Krita&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=200&h=200&fit=crop' },
@@ -124,7 +124,7 @@ export const guides: StyleGuide[] = [
       { name: 'Coda', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Coda&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=200&h=200&fit=crop' },
       { name: 'Superhuman', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Superhuman&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1559028012-481c04fa702d?w=200&h=200&fit=crop' },
       { name: 'Jira', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Jira&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=200&h=200&fit=crop' },
-      { name: 'Asana', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Asana&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1563986768609-322da13575f2?w=200&h=200&fit=crop' },
+      { name: 'Asana', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Asana&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=200&h=200&fit=crop' },
     ],
   },
 
@@ -197,7 +197,7 @@ export const guides: StyleGuide[] = [
     image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop',
     affiliateProducts: [
       { name: 'Notion AI', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Notion+AI&tag=smarttoolp-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=200&h=200&fit=crop' },
-      { name: 'ChatGPT', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=ChatGPT&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1581291518633-83b4eef1d2fa?w=200&h=200&fit=crop' },
+      { name: 'ChatGPT', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=ChatGPT&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=200&h=200&fit=crop' },
       { name: 'Grammarly AI', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Grammarly+AI&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=200&h=200&fit=crop' },
     ],
   },
@@ -252,7 +252,7 @@ export const guides: StyleGuide[] = [
     image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&h=400&fit=crop',
     affiliateProducts: [
       { name: 'HubSpot CRM', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=HubSpot+CRM&tag=smarttoolp-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=200&h=200&fit=crop' },
-      { name: 'Zoho CRM', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Zoho+CRM&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1563986768609-322da13575f2?w=200&h=200&fit=crop' },
+      { name: 'Zoho CRM', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Zoho+CRM&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=200&h=200&fit=crop' },
       { name: 'Salesforce Essentials', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Salesforce+Essentials&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1552581234-26160f608093?w=200&h=200&fit=crop' },
       { name: 'Pipedrive', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Pipedrive&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=200&h=200&fit=crop' },
       { name: 'ActiveCampaign', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=ActiveCampaign&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=200&h=200&fit=crop' },
