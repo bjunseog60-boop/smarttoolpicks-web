@@ -34,6 +34,25 @@ export const categories = [
 export const guides: StyleGuide[] = [
 
   {
+    slug: 'slack-vs-microsoft-teams-best-for-your-business',
+    title: 'Slack vs. Microsoft Teams: Which is Best for Your Business?',
+    category: 'collaboration',
+    description: 'Comprehensive comparison of Slack vs Microsoft Teams. Dive into features, pricing, pros, cons, and real-world use cases to choose your ideal business messaging app.',
+    readTime: '10 min',
+    date: '2026-02-21',
+    tag: 'Guide',
+    emoji: '🤝',
+    image: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&h=400&fit=crop',
+    affiliateProducts: [
+      { name: 'Slack', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Slack&tag=smarttoolp-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=200&h=200&fit=crop' },
+      { name: 'Microsoft Teams', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Microsoft+Teams&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=200&h=200&fit=crop' },
+      { name: 'Google Chat', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Google+Chat&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=200&h=200&fit=crop' },
+      { name: 'Microsoft 365', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Microsoft+365&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=200&h=200&fit=crop' },
+      { name: 'Google Workspace', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Google+Workspace&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=200&h=200&fit=crop' },
+    ],
+  },
+
+  {
     slug: 'best-free-design-software-alternatives',
     title: 'Best Free Design Software: Affordable Alternatives for Creatives',
     category: 'design-tools',
