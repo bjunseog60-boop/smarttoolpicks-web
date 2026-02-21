@@ -7,11 +7,11 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
   const links = [
-    { href: '/shop', label: 'Shop' },
-    { href: '/guides', label: 'Style Guides' },
+    { href: '/shop', label: 'Tools' },
+    { href: '/guides', label: 'Reviews' },
     { href: '/blog', label: 'Blog' },
     { href: '/compare/nordstrom-vs-asos', label: 'Compare' },
-    { href: '/style-quiz', label: 'Style Quiz' },
+    { href: '/style-quiz', label: 'Tool Finder' },
   ];
 
   const isActive = (href: string) => {
@@ -25,7 +25,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 group">
             <span className="font-display font-bold text-xl text-gray-900 tracking-tight">
-              Style<span className="text-blush-500">Me</span>Daily
+              Smart<span className="text-blue-500">Tool</span>Picks
             </span>
           </Link>
 
@@ -47,7 +47,7 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center gap-3">
-            <Link href="/style-quiz" className="hidden sm:block btn-primary text-sm !px-4 !py-2">Take Style Quiz</Link>
+            <Link href="/style-quiz" className="hidden sm:block btn-primary text-sm !px-4 !py-2">Find Your Tool</Link>
             <button
               onClick={() => setOpen(!open)}
               className="md:hidden text-gray-400 hover:text-gray-900 p-2"
@@ -80,7 +80,7 @@ export default function Header() {
                 {l.label}
               </Link>
             ))}
-            <Link href="/style-quiz" className="block mx-4 mt-3 btn-primary text-sm text-center">Take Style Quiz</Link>
+            <Link href="/style-quiz" className="block mx-4 mt-3 btn-primary text-sm text-center">Find Your Tool</Link>
           </nav>
         )}
       </div>

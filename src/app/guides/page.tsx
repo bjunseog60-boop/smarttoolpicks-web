@@ -4,13 +4,13 @@ import { guides } from '@/lib/guides-data';
 import GuidesClient from './GuidesClient';
 
 export const metadata: Metadata = {
-  title: 'Style Guides — Outfit Ideas & Fashion Tips for Every Woman',
-  description: 'Browse expert styling guides with outfit ideas, capsule wardrobe tips, and fashion advice for work, dates, casual, and special occasions.',
-  keywords: ['style guides', 'outfit ideas', 'fashion tips', 'capsule wardrobe', 'what to wear', 'women fashion 2026'],
+  title: 'Software Reviews — SaaS Comparisons & Tool Guides',
+  description: 'Browse expert software reviews with detailed comparisons, pricing breakdowns, and tool recommendations for project management, CRM, design, and more.',
+  keywords: ['software reviews', 'saas comparison', 'tool guides', 'best software 2026', 'productivity tools', 'business software'],
   alternates: { canonical: `${SITE_URL}/guides` },
   openGraph: {
-    title: 'Style Guides — Outfit Ideas & Fashion Tips',
-    description: 'Browse expert styling guides with outfit ideas and fashion advice for every occasion.',
+    title: 'Software Reviews — SaaS Comparisons & Tool Guides',
+    description: 'Browse expert software reviews with detailed comparisons and tool recommendations.',
     url: `${SITE_URL}/guides`,
     siteName: SITE_NAME,
     type: 'website',
@@ -21,8 +21,8 @@ export default function GuidesPage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: 'StyleMeDaily Style Guides',
-    description: 'Browse expert styling guides with outfit ideas and fashion advice.',
+    name: 'SmartToolPicks Software Reviews',
+    description: 'Browse expert software reviews with detailed comparisons and tool recommendations.',
     url: `${SITE_URL}/guides`,
     mainEntity: {
       '@type': 'ItemList',

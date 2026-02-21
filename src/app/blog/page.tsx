@@ -3,9 +3,9 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Blog — Fashion Tips, Trends & Style News',
-  description: 'The latest fashion tips, trend reports, and style advice for modern women. Stay updated with seasonal trends, outfit ideas, and product reviews.',
-  keywords: ['fashion blog', 'style news', 'fashion trends 2026', 'outfit ideas', 'style tips'],
+  title: 'Blog — SaaS News, Software Tips & Tool Updates',
+  description: 'The latest SaaS news, software tips, and tool updates. Stay informed with product launches, pricing changes, and expert software advice.',
+  keywords: ['saas blog', 'software news', 'tool updates 2026', 'saas tips', 'productivity news'],
 };
 
 const posts = [

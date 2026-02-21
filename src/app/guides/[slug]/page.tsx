@@ -22,13 +22,13 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     title: guide.title,
     description: guide.description,
-    keywords: `${guide.category}, fashion guide, style tips, ${guide.title.toLowerCase()}, women fashion 2026, outfit ideas`,
+    keywords: `${guide.category}, software review, tool guide, ${guide.title.toLowerCase()}, best saas 2026, productivity tools`,
     openGraph: {
       title: guide.title,
       description: guide.description,
       type: 'article',
       publishedTime: guide.date,
-      authors: ['TrendLoop USA Team'],
+      authors: ['SmartToolPicks Team'],
       images: guide.image ? [{ url: guide.image, width: 1200, height: 630 }] : [],
       siteName: SITE_NAME,
       url: `${SITE_URL}/guides/${params.slug}`,
