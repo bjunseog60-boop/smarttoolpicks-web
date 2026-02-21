@@ -34,6 +34,25 @@ export const categories = [
 export const guides: StyleGuide[] = [
 
   {
+    slug: 'essential-design-software-ui-ux-professionals-beginners',
+    title: 'Essential Design Software for UI/UX Professionals & Beginners',
+    category: 'design-tools',
+    description: 'Uncover the must-have design software for UI/UX. Hands-on reviews of Figma, Adobe XD, and Sketch for pros and beginners. Find your perfect tool!',
+    readTime: '12 min',
+    date: '2026-02-21',
+    tag: 'Guide',
+    emoji: '🎨',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop',
+    affiliateProducts: [
+      { name: 'Figma', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Figma&tag=smarttoolp-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=200&h=200&fit=crop' },
+      { name: 'Adobe XD', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Adobe+XD&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=200&h=200&fit=crop' },
+      { name: 'Sketch', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Sketch&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=200&h=200&fit=crop' },
+      { name: 'InVision Studio', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=InVision+Studio&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=200&h=200&fit=crop' },
+      { name: 'ProtoPie', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=ProtoPie&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=200&h=200&fit=crop' },
+    ],
+  },
+
+  {
     slug: 'the-best-crm-for-small-business-boost-sales-customer-growth',
     title: 'The Best CRM for Small Business: Boost Sales & Customer Growth',
     category: 'crm-sales',
