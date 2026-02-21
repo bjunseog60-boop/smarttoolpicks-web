@@ -80,7 +80,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-21',
     tag: 'Editor Pick',
     emoji: '🎨',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
     affiliateProducts: [
       { name: 'GIMP', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=GIMP&tag=smarttoolp-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=200&h=200&fit=crop' },
       { name: 'Inkscape', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Inkscape&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1581291518633-83b4eef1d2fa?w=200&h=200&fit=crop' },
@@ -137,7 +137,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-21',
     tag: 'Editor Pick',
     emoji: '📊',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
     affiliateProducts: [
       { name: 'Asana', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Asana&tag=smarttoolp-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1552581234-26160f608093?w=200&h=200&fit=crop' },
       { name: 'Jira', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Jira&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=200&h=200&fit=crop' },
@@ -230,7 +230,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-21',
     tag: 'Guide',
     emoji: '🎨',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
     affiliateProducts: [
       { name: 'Figma', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Figma&tag=smarttoolp-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1558403194-611308249627?w=200&h=200&fit=crop' },
       { name: 'Adobe XD', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Adobe+XD&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=200&h=200&fit=crop' },
