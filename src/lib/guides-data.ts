@@ -34,6 +34,23 @@ export const categories = [
 export const guides: StyleGuide[] = [
 
   {
+    slug: 'boost-your-productivity-top-ai-tools-for-business-personal-use',
+    title: 'Boost Your Productivity: Top AI Tools for Business & Personal Use',
+    category: 'ai-tools',
+    description: 'Unlock peak productivity with top AI tools for business and personal use. Hands-on reviews of Notion AI, ChatGPT, and Grammarly AI.',
+    readTime: '8 min',
+    date: '2026-02-21',
+    tag: 'Editor Pick',
+    emoji: '🚀',
+    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=400&fit=crop',
+    affiliateProducts: [
+      { name: 'Notion AI', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Notion+AI&tag=smarttoolp-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=200&h=200&fit=crop' },
+      { name: 'ChatGPT', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=ChatGPT&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=200&h=200&fit=crop' },
+      { name: 'Grammarly AI', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Grammarly+AI&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=200&h=200&fit=crop' },
+    ],
+  },
+
+  {
     slug: 'top-marketing-automation-tools-2024',
     title: 'Top Marketing Automation Tools to Scale Your Business in 2024',
     category: 'marketing-tools',
