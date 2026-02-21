@@ -58,7 +58,7 @@ export default function AboutPage() {
         <h2>Get in Touch</h2>
         <p>
           Questions, feedback, or partnership inquiries? Reach us at{' '}
-          <a href="mailto:contact@trendloopusa.net">contact@trendloopusa.net</a>.
+          <a href="mailto:contact@smarttoolpicks.net">contact@smarttoolpicks.net</a>.
         </p>
       </div>
 

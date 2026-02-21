@@ -139,7 +139,7 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
           </h1>
           <p className="text-lg text-gray-400 leading-relaxed">{guide.description}</p>
           <div className="flex items-center gap-4 mt-4 text-sm text-gray-400">
-            <span>By TrendLoop USA Team</span>
+            <span>By SmartToolPicks Team</span>
             <span>·</span>
             <span>{new Date(guide.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
           </div>
@@ -266,7 +266,7 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
           </div>
         )}
 
-        {/* More From StyleMeDaily */}
+        {/* More From SmartToolPicks */}
         {moreGuides.length > 0 && (
           <div className="mb-8">
             <h3 className="font-display font-bold text-gray-900 mb-4">Explore More Guides</h3>

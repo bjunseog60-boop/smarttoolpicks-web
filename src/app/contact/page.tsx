@@ -17,14 +17,14 @@ export default function ContactPage() {
       <div className="grid sm:grid-cols-2 gap-4 mb-10">
         <div className="border border-gray-100 rounded-xl p-6 bg-white">
           <p className="text-xs text-gray-400 uppercase tracking-wide font-mono mb-2">General Inquiries</p>
-          <a href="mailto:contact@trendloopusa.net" className="text-sm text-gray-900 font-medium hover:text-gray-600 transition-colors">
-            contact@trendloopusa.net
+          <a href="mailto:contact@smarttoolpicks.net" className="text-sm text-gray-900 font-medium hover:text-gray-600 transition-colors">
+            contact@smarttoolpicks.net
           </a>
         </div>
         <div className="border border-gray-100 rounded-xl p-6 bg-white">
           <p className="text-xs text-gray-400 uppercase tracking-wide font-mono mb-2">Partnerships</p>
-          <a href="mailto:contact@trendloopusa.net" className="text-sm text-gray-900 font-medium hover:text-gray-600 transition-colors">
-            contact@trendloopusa.net
+          <a href="mailto:contact@smarttoolpicks.net" className="text-sm text-gray-900 font-medium hover:text-gray-600 transition-colors">
+            contact@smarttoolpicks.net
           </a>
         </div>
         <div className="border border-gray-100 rounded-xl p-6 bg-white">
@@ -42,7 +42,7 @@ export default function ContactPage() {
         <p className="text-sm text-gray-400 mb-4">
           We work with brands and companies on sponsored content, product reviews, and affiliate partnerships. If your brand aligns with our audience, let&apos;s talk.
         </p>
-        <a href="mailto:contact@trendloopusa.net" className="btn-primary text-sm inline-block">Send Partnership Inquiry</a>
+        <a href="mailto:contact@smarttoolpicks.net" className="btn-primary text-sm inline-block">Send Partnership Inquiry</a>
       </div>
     </div>
   );

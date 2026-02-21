@@ -14,17 +14,17 @@ export default function NotFound() {
       <div className="flex flex-col sm:flex-row gap-3 justify-center">
         <Link href="/" className="btn-primary text-sm">Go Home</Link>
         <Link href="/guides" className="btn-secondary text-sm">Browse Guides</Link>
-        <Link href="/shop" className="btn-secondary text-sm">Shop All Items</Link>
+        <Link href="/shop" className="btn-secondary text-sm">Browse Tools</Link>
       </div>
 
       <div className="mt-12 border border-gray-100 rounded-xl p-6 bg-white">
         <h2 className="font-display font-bold text-gray-900 text-sm mb-3">Popular right now</h2>
         <div className="space-y-2 text-left">
           {[
-            { title: 'Capsule Wardrobe Guide', href: '/guides/capsule-wardrobe-working-women-2026' },
-            { title: 'Spring Fashion Trends 2026', href: '/guides/spring-fashion-trends-2026' },
-            { title: 'Best Jeans for Every Body Type', href: '/guides/best-jeans-every-body-type' },
-            { title: 'Amazon Fashion Finds Under $30', href: '/guides/amazon-fashion-finds-under-30' },
+            { title: 'Best Project Management Tools 2026', href: '/guides/best-project-management-tools-2026' },
+            { title: 'Top CRM Software Compared', href: '/guides/top-crm-software-compared' },
+            { title: 'No-Code AI Tools Guide', href: '/guides/rise-of-no-code-ai-tools-build-automate' },
+            { title: 'Best Design Tools 2026', href: '/guides/best-design-tools-2026' },
           ].map((link) => (
             <Link key={link.href} href={link.href} className="block text-sm text-gray-500 hover:text-gray-900 transition-colors py-1">
               {link.title}

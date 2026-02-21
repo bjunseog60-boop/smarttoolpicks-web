@@ -10,124 +10,84 @@ export const metadata: Metadata = {
 
 const posts = [
   {
-    slug: 'quiet-luxury-guide',
-    title: 'Quiet Luxury in 2026: How to Nail the "Old Money" Look on Any Budget',
-    excerpt: 'The quiet luxury trend isn\'t going anywhere. Here\'s how to achieve that understated, expensive-looking aesthetic without spending a fortune — from fabric choices to color palettes.',
+    slug: 'ai-tools-replacing-saas',
+    title: 'Are AI Tools Replacing Traditional SaaS? What We Think in 2026',
+    excerpt: 'AI-native tools are disrupting every software category. We break down which traditional SaaS products are most at risk and which ones are adapting.',
     date: 'Feb 18, 2026',
     time: '8 min',
-    cat: 'Style',
-    image: 'https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?w=600&h=400&fit=crop',
-    link: '/blog/quiet-luxury-guide',
+    cat: 'AI',
+    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop',
+    link: '/blog/ai-tools-replacing-saas',
   },
   {
-    slug: 'spring-color-trends',
-    title: 'The 5 Colors That Will Dominate Spring 2026 (And How to Wear Them)',
-    excerpt: 'Vanilla yellow, soft sage, powder blue, warm terracotta, and lavender are this season\'s key colors. We break down how to incorporate each into your existing wardrobe.',
+    slug: 'project-management-trends',
+    title: 'Project Management in 2026: The Tools and Trends That Actually Matter',
+    excerpt: 'From AI-assisted task management to async-first workflows, here are the PM trends and tools reshaping how teams work this year.',
     date: 'Feb 17, 2026',
     time: '6 min',
     cat: 'Trends',
-    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=400&fit=crop',
-    link: '/blog/spring-color-trends',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
+    link: '/blog/project-management-trends',
   },
   {
-    slug: 'capsule-wardrobe-mistakes',
-    title: '7 Capsule Wardrobe Mistakes That Are Costing You Money',
-    excerpt: 'Building a capsule wardrobe sounds simple, but most people get it wrong. From buying too many neutrals to ignoring fit, here are the mistakes to avoid.',
+    slug: 'saas-pricing-mistakes',
+    title: '7 SaaS Pricing Mistakes That Are Costing Your Business Money',
+    excerpt: 'Most teams overpay for software they barely use. From unused seats to redundant tools, here are the pricing traps to avoid.',
     date: 'Feb 16, 2026',
     time: '7 min',
     cat: 'Guide',
-    image: 'https://images.unsplash.com/photo-1558171813-4c088753af8f?w=600&h=400&fit=crop',
-    link: '/blog/capsule-wardrobe-mistakes',
+    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop',
+    link: '/blog/saas-pricing-mistakes',
   },
   {
-    slug: 'nordstrom-vs-asos',
-    title: 'Nordstrom vs ASOS: We Compared 9 Categories So You Don\'t Have To',
-    excerpt: 'Quality, pricing, sizing, returns, sustainability — we spent weeks comparing both retailers to help you decide where your fashion budget goes further.',
+    slug: 'notion-vs-clickup',
+    title: 'Notion vs ClickUp: We Compared 9 Categories So You Don\'t Have To',
+    excerpt: 'Features, pricing, integrations, learning curve -- we spent weeks testing both tools to help you decide which one fits your workflow.',
     date: 'Feb 15, 2026',
     time: '11 min',
     cat: 'Comparison',
-    image: 'https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600&h=400&fit=crop',
-    link: '/compare/nordstrom-vs-asos',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
+    link: '/blog/notion-vs-clickup',
   },
   {
-    slug: 'jeans-buying-guide',
-    title: 'We Tried 40+ Pairs of Jeans So You Don\'t Have To — Here Are the 10 Best',
-    excerpt: 'From high-waisted wide legs to the perfect straight cut — our honest, tested rankings for every body type and budget in 2026.',
+    slug: 'best-free-tools-startups',
+    title: '25 Free SaaS Tools Every Startup Should Be Using in 2026',
+    excerpt: 'From project management to design to analytics -- every tool on this list has a genuinely useful free tier. No credit card required.',
     date: 'Feb 14, 2026',
     time: '15 min',
     cat: 'Review',
-    image: 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=400&fit=crop',
-    link: '/guides/best-jeans-for-women-2026',
+    image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&h=400&fit=crop',
+    link: '/blog/best-free-tools-startups',
   },
   {
-    slug: 'body-shape-dressing',
-    title: 'The Visual Guide to Dressing for Your Body Shape',
-    excerpt: 'Pear, apple, hourglass, rectangle, or inverted triangle — find your type and discover the specific cuts, fabrics, and silhouettes that flatter you most.',
+    slug: 'crm-buying-guide',
+    title: 'The Complete CRM Buying Guide: How to Pick the Right One',
+    excerpt: 'HubSpot, Salesforce, Pipedrive, or something else? We break down what actually matters when choosing a CRM for your team size and budget.',
     date: 'Feb 12, 2026',
     time: '16 min',
     cat: 'Guide',
-    image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&h=400&fit=crop',
-    link: '/guides/dress-for-body-shape-guide',
+    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop',
+    link: '/blog/crm-buying-guide',
   },
   {
-    slug: 'amazon-fashion-haul',
-    title: '25 Amazon Fashion Finds Under $30 That Actually Look Expensive',
-    excerpt: 'From viral TikTok picks to hidden gems — every item is rated 4+ stars and looks way more expensive than it is. Our honest take after testing each one.',
+    slug: 'no-code-automation',
+    title: 'No-Code Automation: Build Workflows Without Writing a Line of Code',
+    excerpt: 'Zapier, Make, n8n -- we tested the top automation platforms and built real workflows to show you what\'s actually possible without developers.',
     date: 'Feb 10, 2026',
     time: '12 min',
-    cat: 'Finds',
-    image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&h=400&fit=crop',
-    link: '/guides/amazon-fashion-finds-under-30',
+    cat: 'Tutorial',
+    image: 'https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=600&h=400&fit=crop',
+    link: '/blog/no-code-automation',
   },
   {
-    slug: 'spring-workwear',
-    title: 'Spring Workwear Capsule: 15 Pieces, 30 Outfits',
-    excerpt: 'Transition your work wardrobe into spring with these 15 versatile pieces. We mapped out 30 outfit combinations so you never have to think about getting dressed.',
+    slug: 'design-tool-showdown',
+    title: 'Figma vs Canva vs Adobe Express: Which Design Tool Wins in 2026?',
+    excerpt: 'Three very different design tools for three different use cases. We tested all three on real projects to find the best fit for your needs.',
     date: 'Feb 8, 2026',
     time: '12 min',
-    cat: 'Workwear',
-    image: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&h=400&fit=crop',
-    link: '/guides/spring-workwear-capsule-2026',
-  },
-  {
-    slug: 'interview-outfits',
-    title: 'What to Wear to Every Type of Job Interview in 2026',
-    excerpt: 'Corporate, startup, creative agency, or remote — first impressions matter. The complete guide to looking professional without overdressing.',
-    date: 'Feb 6, 2026',
-    time: '11 min',
-    cat: 'Guide',
-    image: 'https://images.unsplash.com/photo-1560264280-88b68371db39?w=600&h=400&fit=crop',
-    link: '/guides/what-to-wear-job-interview-2026',
-  },
-  {
-    slug: 'summer-preview',
-    title: 'Summer 2026 Fashion Preview: What We\'re Already Adding to Cart',
-    excerpt: 'It\'s never too early to prep for summer. From linen everything to the return of the maxi dress — here\'s what we\'re buying now before it sells out.',
-    date: 'Feb 4, 2026',
-    time: '9 min',
-    cat: 'Preview',
-    image: 'https://images.unsplash.com/photo-1469504512102-900f29606341?w=600&h=400&fit=crop',
-    link: '/guides/summer-fashion-essentials-2026',
-  },
-  {
-    slug: 'sunglasses-face-shape',
-    title: 'The Only Sunglasses Guide You Need: Best Frames for Your Face Shape',
-    excerpt: 'Round, oval, square, or heart — we matched the best frame styles to every face shape, all under $50. Includes our tested top picks.',
-    date: 'Feb 2, 2026',
-    time: '10 min',
-    cat: 'Accessories',
-    image: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&h=400&fit=crop',
-    link: '/guides/best-sunglasses-face-shape-2026',
-  },
-  {
-    slug: 'stitch-fix-review',
-    title: 'Stitch Fix vs Personal Stylist: An Honest Comparison After 6 Months',
-    excerpt: 'We tested Stitch Fix for 6 months and compared it to working with a personal stylist. Here\'s the real cost breakdown and which option delivered better results.',
-    date: 'Jan 30, 2026',
-    time: '10 min',
-    cat: 'Review',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop',
-    link: '/guides/stitch-fix-vs-personal-stylist',
+    cat: 'Comparison',
+    image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop',
+    link: '/blog/design-tool-showdown',
   },
 ];
 
@@ -138,8 +98,8 @@ export default function BlogPage() {
   return (
     <div className="pt-8 max-w-4xl mx-auto">
       <div className="mb-10">
-        <h1 className="section-title">The Edit</h1>
-        <p className="text-gray-400 mt-1">Fashion insights, honest reviews, and trend analysis</p>
+        <h1 className="section-title">The Brief</h1>
+        <p className="text-gray-400 mt-1">Software insights, honest reviews, and tool analysis</p>
       </div>
 
       {/* Featured Post */}
@@ -213,15 +173,11 @@ export default function BlogPage() {
       {/* Newsletter CTA */}
       <div className="mt-16 border border-gray-100 rounded-xl p-8 text-center bg-white">
         <h3 className="font-display text-xl font-bold text-gray-900 mb-2">Stay in the Loop</h3>
-        <p className="text-gray-400 text-sm mb-6">New articles and style picks delivered every Thursday.</p>
-        <iframe
-          src="https://trendloopusa.substack.com/embed"
-          width="100%"
-          height="130"
-          style={{ border: '1px solid #EEE', background: 'white', borderRadius: '12px', maxWidth: '480px', display: 'block', margin: '0 auto' }}
-          frameBorder={0}
-          scrolling="no"
-        />
+        <p className="text-gray-400 text-sm mb-6">New reviews and tool picks delivered every Thursday.</p>
+        <div className="max-w-md mx-auto">
+          <p className="text-sm text-blue-500 font-medium">Coming soon</p>
+          <p className="text-xs text-gray-400 mt-2">Subscribe feature launching shortly.</p>
+        </div>
         <p className="text-[11px] text-gray-400 mt-3">No spam. Unsubscribe anytime.</p>
       </div>
     </div>
