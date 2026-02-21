@@ -34,6 +34,25 @@ export const categories = [
 export const guides: StyleGuide[] = [
 
   {
+    slug: 'asana-vs-jira-project-management-tool-comparison',
+    title: 'Asana vs. Jira: Choosing the Right Project Management Tool',
+    category: 'project-management',
+    description: 'Hands-on review of Asana vs Jira for project management. Discover which tool best fits your team\'s workflow, from agile to simple task tracking.',
+    readTime: '12 min',
+    date: '2026-02-21',
+    tag: 'Editor Pick',
+    emoji: '📊',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop',
+    affiliateProducts: [
+      { name: 'Asana', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Asana&tag=smarttoolp-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=200&h=200&fit=crop' },
+      { name: 'Jira', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Jira&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=200&h=200&fit=crop' },
+      { name: 'Trello', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Trello&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=200&h=200&fit=crop' },
+      { name: 'Monday.com', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Monday.com&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=200&h=200&fit=crop' },
+      { name: 'ClickUp', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=ClickUp&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=200&h=200&fit=crop' },
+    ],
+  },
+
+  {
     slug: 'best-team-collaboration-tools-remote-hybrid-workspaces',
     title: 'Best Team Collaboration Tools for Remote & Hybrid Workspaces',
     category: 'collaboration',
