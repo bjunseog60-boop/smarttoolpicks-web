@@ -34,6 +34,25 @@ export const categories = [
 export const guides: StyleGuide[] = [
 
   {
+    slug: 'top-marketing-automation-tools-2024',
+    title: 'Top Marketing Automation Tools to Scale Your Business in 2024',
+    category: 'marketing-tools',
+    description: 'Discover the best marketing automation tools like ActiveCampaign, Mailchimp, and HubSpot to streamline campaigns, nurture leads, and drive growth in 2024.',
+    readTime: '8 min',
+    date: '2026-02-21',
+    tag: 'Editor Pick',
+    emoji: '🚀',
+    image: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&h=400&fit=crop',
+    affiliateProducts: [
+      { name: 'ActiveCampaign', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=ActiveCampaign&tag=smarttoolp-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=200&h=200&fit=crop' },
+      { name: 'Mailchimp', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Mailchimp&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=200&h=200&fit=crop' },
+      { name: 'HubSpot Marketing Hub', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=HubSpot+Marketing+Hub&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=200&h=200&fit=crop' },
+      { name: 'GetResponse', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=GetResponse&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=200&h=200&fit=crop' },
+      { name: 'Drip', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Drip&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=200&h=200&fit=crop' },
+    ],
+  },
+
+  {
     slug: 'essential-design-software-ui-ux-professionals-beginners',
     title: 'Essential Design Software for UI/UX Professionals & Beginners',
     category: 'design-tools',
