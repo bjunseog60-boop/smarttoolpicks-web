@@ -34,6 +34,25 @@ export const categories = [
 export const guides: StyleGuide[] = [
 
   {
+    slug: 'best-free-design-software-alternatives',
+    title: 'Best Free Design Software: Affordable Alternatives for Creatives',
+    category: 'design-tools',
+    description: 'Discover high-quality free design software like GIMP, Inkscape, and Canva Free. Powerful graphic design, photo editing, and illustration for budget-conscious creatives.',
+    readTime: '7 min',
+    date: '2026-02-21',
+    tag: 'Editor Pick',
+    emoji: '🎨',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop',
+    affiliateProducts: [
+      { name: 'GIMP', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=GIMP&tag=smarttoolp-20', tag: 'Editor Pick', image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=200&h=200&fit=crop' },
+      { name: 'Inkscape', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Inkscape&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=200&h=200&fit=crop' },
+      { name: 'Canva Free', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Canva+Free&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=200&h=200&fit=crop' },
+      { name: 'Adobe Photoshop', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Adobe+Photoshop&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=200&h=200&fit=crop' },
+      { name: 'Krita', brand: 'Amazon', price: '$--', url: 'https://www.amazon.com/s?k=Krita&tag=smarttoolp-20', image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=200&h=200&fit=crop' },
+    ],
+  },
+
+  {
     slug: 'ai-powered-marketing-automation-strategies-platforms',
     title: 'AI-Powered Marketing Automation: Strategies & Top Platforms',
     category: 'marketing-tools',
