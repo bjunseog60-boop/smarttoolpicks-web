@@ -16,7 +16,7 @@ const posts = [
     date: 'Feb 18, 2026',
     time: '8 min',
     cat: 'AI',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop',
+    image: '/images/guides/blog-ai-tools.svg',
     link: '/blog/ai-tools-replacing-saas',
   },
   {
@@ -26,7 +26,7 @@ const posts = [
     date: 'Feb 17, 2026',
     time: '6 min',
     cat: 'Trends',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
+    image: '/images/guides/blog-pm-trends.svg',
     link: '/blog/project-management-trends',
   },
   {
@@ -36,7 +36,7 @@ const posts = [
     date: 'Feb 16, 2026',
     time: '7 min',
     cat: 'Guide',
-    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop',
+    image: '/images/guides/blog-pricing.svg',
     link: '/blog/saas-pricing-mistakes',
   },
   {
@@ -46,7 +46,7 @@ const posts = [
     date: 'Feb 15, 2026',
     time: '11 min',
     cat: 'Comparison',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
+    image: '/images/guides/blog-notion-clickup.svg',
     link: '/blog/notion-vs-clickup',
   },
   {
@@ -56,7 +56,7 @@ const posts = [
     date: 'Feb 14, 2026',
     time: '15 min',
     cat: 'Review',
-    image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&h=400&fit=crop',
+    image: '/images/guides/blog-free-tools.svg',
     link: '/blog/best-free-tools-startups',
   },
   {
@@ -66,7 +66,7 @@ const posts = [
     date: 'Feb 12, 2026',
     time: '16 min',
     cat: 'Guide',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop',
+    image: '/images/guides/blog-crm-guide.svg',
     link: '/blog/crm-buying-guide',
   },
   {
@@ -76,7 +76,7 @@ const posts = [
     date: 'Feb 10, 2026',
     time: '12 min',
     cat: 'Tutorial',
-    image: 'https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=600&h=400&fit=crop',
+    image: '/images/guides/blog-no-code.svg',
     link: '/blog/no-code-automation',
   },
   {
@@ -86,7 +86,7 @@ const posts = [
     date: 'Feb 8, 2026',
     time: '12 min',
     cat: 'Comparison',
-    image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop',
+    image: '/images/guides/blog-design-showdown.svg',
     link: '/blog/design-tool-showdown',
   },
 ];

@@ -3,11 +3,15 @@ import Image, { ImageProps } from 'next/image';
 import { useState } from 'react';
 
 const FALLBACK_IMAGES: Record<string, string> = {
-  saas: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
-  productivity: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=600&h=400&fit=crop',
-  design: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=400&fit=crop',
-  ai: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop',
-  default: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
+  saas: '/images/categories/ai-tools.svg',
+  productivity: '/images/categories/productivity.svg',
+  design: '/images/categories/design-tools.svg',
+  ai: '/images/categories/ai-tools.svg',
+  'project-management': '/images/categories/project-management.svg',
+  'crm-sales': '/images/categories/crm-sales.svg',
+  'marketing-tools': '/images/categories/marketing-tools.svg',
+  collaboration: '/images/categories/collaboration.svg',
+  default: '/images/categories/productivity.svg',
 };
 
 interface SafeImageProps extends Omit<ImageProps, 'onError'> {

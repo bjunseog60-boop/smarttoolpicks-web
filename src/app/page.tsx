@@ -12,10 +12,10 @@ export default function HomePage() {
   const editorPicks = guides.slice(0, 3);
 
   const featuredGuides = [
-    { title: 'Best Project Management Tools 2026', image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=600&fit=crop', url: '/guides/best-project-management-tools-2026' },
-    { title: 'Top CRM Software Compared', image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=600&fit=crop', url: '/guides/top-crm-software-compared' },
-    { title: 'No-Code AI Tools Guide', image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=600&fit=crop', url: '/guides/rise-of-no-code-ai-tools-build-automate' },
-    { title: 'Best Design Tools 2026', image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=600&fit=crop', url: '/guides/best-design-tools-2026' },
+    { title: 'Best Project Management Tools 2026', image: '/images/guides/best-pm-tools-2026.svg', url: '/guides/best-project-management-software-agile-teams-2024' },
+    { title: 'Top CRM Software Compared', image: '/images/guides/top-crm-compared.svg', url: '/guides/the-best-crm-for-small-business-boost-sales-customer-growth' },
+    { title: 'No-Code AI Tools Guide', image: '/images/guides/no-code-ai-guide.svg', url: '/guides/the-rise-of-no-code-ai-tools-build-automate-without-code' },
+    { title: 'Best Design Tools 2026', image: '/images/guides/best-design-2026.svg', url: '/guides/essential-design-software-ui-ux-professionals-beginners' },
   ];
 
   const organizationJsonLd = {

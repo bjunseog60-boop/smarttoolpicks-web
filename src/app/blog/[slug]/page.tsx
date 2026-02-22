@@ -23,7 +23,7 @@ const blogPosts: Record<string, BlogPost> = {
     excerpt: 'AI-native tools are disrupting every software category. We break down which traditional SaaS products are most at risk.',
     date: '2026-02-18',
     cat: 'AI',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop',
+    image: '/images/guides/blog-ai-tools.svg',
     content: [
       { heading: 'The AI Disruption Wave', paragraphs: [
         'In 2026, AI-native tools are no longer experimental -- they are replacing entire software categories. From AI writing assistants that challenge traditional CMS platforms to AI-powered analytics that make legacy BI tools feel outdated.',
@@ -49,7 +49,7 @@ const blogPosts: Record<string, BlogPost> = {
     excerpt: 'From AI-assisted task management to async-first workflows, here are the PM trends reshaping how teams work.',
     date: '2026-02-17',
     cat: 'Trends',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop',
+    image: '/images/guides/blog-pm-trends.svg',
     content: [
       { heading: 'AI-Assisted Task Management', paragraphs: [
         'The biggest trend in project management is AI that actually helps -- not just chatbots bolted onto existing tools. ClickUp Brain, Linear\'s AI features, and Notion AI are leading the way with smart task creation, automatic status updates, and predictive timelines.',
@@ -71,7 +71,7 @@ const blogPosts: Record<string, BlogPost> = {
     excerpt: 'Most teams overpay for software they barely use. Here are the pricing traps to avoid.',
     date: '2026-02-16',
     cat: 'Guide',
-    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop',
+    image: '/images/guides/blog-pricing.svg',
     content: [
       { heading: 'Mistake 1: Paying for Seats You Don\'t Use', paragraphs: [
         'The most common SaaS pricing mistake is paying for user seats that sit unused. Audit your tools quarterly -- most teams have 20-30% unused licenses across their software stack.',
