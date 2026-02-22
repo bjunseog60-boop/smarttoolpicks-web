@@ -25,7 +25,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 group">
             <span className="font-display font-bold text-xl text-gray-900 tracking-tight">
-              Smart<span className="text-blue-500">Tool</span>Picks
+              Smart<span className="text-indigo-500">Tool</span>Picks
             </span>
           </Link>
 
