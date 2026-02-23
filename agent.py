@@ -23,7 +23,7 @@ else:
 gemini_client = genai.Client(vertexai=True, project="fashion-money-maker", location="us-central1")
 
 GEMINI_MODEL = "gemini-3.1-pro"
-IMAGE_MODEL = "gemini-3-pro-image"
+IMAGE_MODEL = "imagen-3.0-generate-001"
 
 # Auto-detect environment (Windows local vs Linux VM)
 if sys.platform == "win32":
