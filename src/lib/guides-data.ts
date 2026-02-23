@@ -42,7 +42,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-21',
     tag: 'Trending',
     emoji: '',
-    image: '/images/guides/no-code-ai-tools.svg',
+    image: '\images\guides/no-code-ai-tools.webp',
     affiliateProducts: [
       { name: 'Zapier', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Zapier&tag=smarttoolp-20', tag: 'Editor Pick', image: '/images/tools/zapier.svg' },
       { name: 'Make', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Make&tag=smarttoolp-20', image: '/images/tools/make.svg' },
@@ -61,7 +61,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-21',
     tag: 'Guide',
     emoji: '',
-    image: '/images/guides/slack-vs-teams.svg',
+    image: '\images\guides/slack-vs-teams.webp',
     affiliateProducts: [
       { name: 'Slack', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Slack&tag=smarttoolp-20', tag: 'Editor Pick', image: '/images/tools/slack.svg' },
       { name: 'Microsoft Teams', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Microsoft+Teams&tag=smarttoolp-20', image: '/images/tools/microsoft-teams.svg' },
@@ -80,7 +80,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-21',
     tag: 'Editor Pick',
     emoji: '',
-    image: '/images/guides/free-design-software.svg',
+    image: '\images\guides/free-design-software.webp',
     affiliateProducts: [
       { name: 'GIMP', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=GIMP&tag=smarttoolp-20', tag: 'Editor Pick', image: '/images/tools/gimp.svg' },
       { name: 'Inkscape', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Inkscape&tag=smarttoolp-20', image: '/images/tools/inkscape.svg' },
@@ -99,7 +99,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-21',
     tag: 'Editor Pick',
     emoji: '',
-    image: '/images/guides/ai-marketing-automation.svg',
+    image: '\images\guides/ai-marketing-automation.webp',
     affiliateProducts: [
       { name: 'Salesforce Einstein', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Salesforce+Einstein&tag=smarttoolp-20', tag: 'Editor Pick', image: '/images/tools/salesforce-einstein.svg' },
       { name: 'Jasper AI', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Jasper+AI&tag=smarttoolp-20', image: '/images/tools/jasper-ai.svg' },
@@ -118,7 +118,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-21',
     tag: 'Trending',
     emoji: '',
-    image: '/images/guides/productivity-saas-2026.svg',
+    image: '\images\guides/productivity-saas-2026.webp',
     affiliateProducts: [
       { name: 'ClickUp', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=ClickUp&tag=smarttoolp-20', tag: 'Editor Pick', image: '/images/tools/clickup.svg' },
       { name: 'Coda', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Coda&tag=smarttoolp-20', image: '/images/tools/coda.svg' },
@@ -137,7 +137,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-21',
     tag: 'Editor Pick',
     emoji: '',
-    image: '/images/guides/asana-vs-jira.svg',
+    image: '\images\guides/asana-vs-jira.webp',
     affiliateProducts: [
       { name: 'Asana', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Asana&tag=smarttoolp-20', tag: 'Editor Pick', image: '/images/tools/asana.svg' },
       { name: 'Jira', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Jira&tag=smarttoolp-20', image: '/images/tools/jira.svg' },
@@ -156,7 +156,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-21',
     tag: 'Editor Pick',
     emoji: '',
-    image: '/images/guides/team-collaboration.svg',
+    image: '\images\guides/team-collaboration.webp',
     affiliateProducts: [
       { name: 'Slack', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Slack&tag=smarttoolp-20', tag: 'Editor Pick', image: '/images/tools/slack.svg' },
       { name: 'Microsoft Teams', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Microsoft+Teams&tag=smarttoolp-20', image: '/images/tools/microsoft-teams.svg' },
@@ -175,7 +175,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-21',
     tag: 'Editor Pick',
     emoji: '',
-    image: '/images/guides/productivity-hybrid-teams.svg',
+    image: '\images\guides/productivity-hybrid-teams.webp',
     affiliateProducts: [
       { name: 'Notion', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Notion&tag=smarttoolp-20', tag: 'Editor Pick', image: '/images/tools/notion.svg' },
       { name: 'Todoist', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Todoist&tag=smarttoolp-20', image: '/images/tools/todoist.svg' },
@@ -194,7 +194,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-21',
     tag: 'Editor Pick',
     emoji: '',
-    image: '/images/guides/ai-productivity-tools.svg',
+    image: '\images\guides/ai-productivity-tools.webp',
     affiliateProducts: [
       { name: 'Notion AI', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Notion+AI&tag=smarttoolp-20', tag: 'Editor Pick', image: '/images/tools/notion-ai.svg' },
       { name: 'ChatGPT', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=ChatGPT&tag=smarttoolp-20', image: '/images/tools/chatgpt.svg' },
@@ -211,7 +211,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-21',
     tag: 'Editor Pick',
     emoji: '',
-    image: '/images/guides/marketing-automation.svg',
+    image: '\images\guides/marketing-automation.webp',
     affiliateProducts: [
       { name: 'ActiveCampaign', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=ActiveCampaign&tag=smarttoolp-20', tag: 'Editor Pick', image: '/images/tools/activecampaign.svg' },
       { name: 'Mailchimp', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Mailchimp&tag=smarttoolp-20', image: '/images/tools/mailchimp.svg' },
@@ -230,7 +230,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-21',
     tag: 'Guide',
     emoji: '',
-    image: '/images/guides/design-software-uiux.svg',
+    image: '\images\guides/design-software-uiux.webp',
     affiliateProducts: [
       { name: 'Figma', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Figma&tag=smarttoolp-20', tag: 'Editor Pick', image: '/images/tools/figma.svg' },
       { name: 'Adobe XD', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Adobe+XD&tag=smarttoolp-20', image: '/images/tools/adobe-xd.svg' },
@@ -249,7 +249,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-21',
     tag: 'Editor Pick',
     emoji: '',
-    image: '/images/guides/crm-small-business.svg',
+    image: '\images\guides/crm-small-business.webp',
     affiliateProducts: [
       { name: 'HubSpot CRM', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=HubSpot+CRM&tag=smarttoolp-20', tag: 'Editor Pick', image: '/images/tools/hubspot-crm.svg' },
       { name: 'Zoho CRM', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Zoho+CRM&tag=smarttoolp-20', image: '/images/tools/zoho-crm.svg' },
@@ -268,7 +268,7 @@ export const guides: StyleGuide[] = [
     date: '2026-02-21',
     tag: 'Editor Pick',
     emoji: '',
-    image: '/images/guides/pm-agile-teams.svg',
+    image: '\images\guides/pm-agile-teams.webp',
     affiliateProducts: [
       { name: 'Jira', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Jira&tag=smarttoolp-20', tag: 'Editor Pick', image: '/images/tools/jira.svg' },
       { name: 'Asana', brand: 'Amazon', price: 'See Price', url: 'https://www.amazon.com/s?k=Asana&tag=smarttoolp-20', image: '/images/tools/asana.svg' },
