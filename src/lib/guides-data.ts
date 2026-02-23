@@ -38,12 +38,12 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-23',
     tag: 'Guide',
     emoji: '🤖',
-    image: '/images/guides/best-ai-writing-assistants-2026-hero.jpg',
+    image: 'https://smarttoolpicks.net/images/guides/best-ai-writing-assistants-2026-hero.jpg',
     affiliateProducts: [
-      { name: 'Jasper AI Suite', brand: 'Jasper', price: '$99/mo', url: 'https://amzn.to/example', tag: 'Best Overall', image: '/images/guides/best-ai-writing-assistants-2026-prod0.jpg' },
-      { name: 'Writesonic 7.0', brand: 'Writesonic', price: '$79/mo', url: 'https://amzn.to/example', tag: 'Best for SEO & Long-Form', image: '/images/guides/best-ai-writing-assistants-2026-prod1.jpg' },
-      { name: 'Copy.ai for Teams', brand: 'Copy.ai', price: '$125/mo', url: 'https://amzn.to/example', tag: 'Best for Marketing Teams', image: '/images/guides/best-ai-writing-assistants-2026-prod2.jpg' },
-      { name: 'Rytr Fusion', brand: 'Rytr', price: '$29/mo', url: 'https://amzn.to/example', tag: 'Best Value', image: '/images/guides/best-ai-writing-assistants-2026-prod3.jpg' },
+      { name: 'Jasper AI Suite', brand: 'Jasper', price: '$99/mo', url: 'https://amzn.to/example', tag: 'Best Overall', image: 'https://smarttoolpicks.net/images/guides/best-ai-writing-assistants-2026-prod0.jpg' },
+      { name: 'Writesonic 7.0', brand: 'Writesonic', price: '$79/mo', url: 'https://amzn.to/example', tag: 'Best for SEO & Long-Form', image: 'https://smarttoolpicks.net/images/guides/best-ai-writing-assistants-2026-prod1.jpg' },
+      { name: 'Copy.ai for Teams', brand: 'Copy.ai', price: '$125/mo', url: 'https://amzn.to/example', tag: 'Best for Marketing Teams', image: 'https://smarttoolpicks.net/images/guides/best-ai-writing-assistants-2026-prod2.jpg' },
+      { name: 'Rytr Fusion', brand: 'Rytr', price: '$29/mo', url: 'https://amzn.to/example', tag: 'Best Value', image: 'https://smarttoolpicks.net/images/guides/best-ai-writing-assistants-2026-prod3.jpg' },
     ],
   },
   {
@@ -55,12 +55,12 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-23',
     tag: 'Guide',
     emoji: '📈',
-    image: '/images/guides/best-project-management-tools-2026-hero.jpg',
+    image: 'https://smarttoolpicks.net/images/guides/best-project-management-tools-2026-hero.jpg',
     affiliateProducts: [
-      { name: 'Monday.com', brand: 'Monday.com', price: '$12/mo', url: 'https://amzn.to/example', tag: 'Best Overall', image: '/images/guides/best-project-management-tools-2026-prod0.jpg' },
-      { name: 'ClickUp', brand: 'ClickUp', price: '$7/mo', url: 'https://amzn.to/example', tag: 'Most Customizable', image: '/images/guides/best-project-management-tools-2026-prod1.jpg' },
-      { name: 'Asana', brand: 'Asana', price: '$10.99/mo', url: 'https://amzn.to/example', tag: 'Best for Team Collaboration', image: '/images/guides/best-project-management-tools-2026-prod2.jpg' },
-      { name: 'Trello', brand: 'Atlassian', price: '$5/mo', url: 'https://amzn.to/example', tag: 'Best for Simplicity', image: '/images/guides/best-project-management-tools-2026-prod3.jpg' },
+      { name: 'Monday.com', brand: 'Monday.com', price: '$12/mo', url: 'https://amzn.to/example', tag: 'Best Overall', image: 'https://smarttoolpicks.net/images/guides/best-project-management-tools-2026-prod0.jpg' },
+      { name: 'ClickUp', brand: 'ClickUp', price: '$7/mo', url: 'https://amzn.to/example', tag: 'Most Customizable', image: 'https://smarttoolpicks.net/images/guides/best-project-management-tools-2026-prod1.jpg' },
+      { name: 'Asana', brand: 'Asana', price: '$10.99/mo', url: 'https://amzn.to/example', tag: 'Best for Team Collaboration', image: 'https://smarttoolpicks.net/images/guides/best-project-management-tools-2026-prod2.jpg' },
+      { name: 'Trello', brand: 'Atlassian', price: '$5/mo', url: 'https://amzn.to/example', tag: 'Best for Simplicity', image: 'https://smarttoolpicks.net/images/guides/best-project-management-tools-2026-prod3.jpg' },
     ],
   },
   {
@@ -72,12 +72,12 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-23',
     tag: 'Guide',
     emoji: '💻',
-    image: '/images/guides/best-crm-software-small-business-2026-hero.jpg',
+    image: 'https://smarttoolpicks.net/images/guides/best-crm-software-small-business-2026-hero.jpg',
     affiliateProducts: [
-      { name: 'HubSpot CRM', brand: 'HubSpot', price: '$0/mo+', url: 'https://amzn.to/example', tag: 'Best Overall', image: '/images/guides/best-crm-software-small-business-2026-prod0.jpg' },
-      { name: 'Zoho CRM', brand: 'Zoho', price: '$14/mo', url: 'https://amzn.to/example', tag: 'Best Value', image: '/images/guides/best-crm-software-small-business-2026-prod1.jpg' },
-      { name: 'Freshsales', brand: 'Freshworks', price: '$15/mo', url: 'https://amzn.to/example', tag: 'Best for Sales Automation', image: '/images/guides/best-crm-software-small-business-2026-prod2.jpg' },
-      { name: 'Pipedrive', brand: 'Pipedrive', price: '$14.90/mo', url: 'https://amzn.to/example', tag: 'Best for Pipeline Management', image: '/images/guides/best-crm-software-small-business-2026-prod3.jpg' },
+      { name: 'HubSpot CRM', brand: 'HubSpot', price: '$0/mo+', url: 'https://amzn.to/example', tag: 'Best Overall', image: 'https://smarttoolpicks.net/images/guides/best-crm-software-small-business-2026-prod0.jpg' },
+      { name: 'Zoho CRM', brand: 'Zoho', price: '$14/mo', url: 'https://amzn.to/example', tag: 'Best Value', image: 'https://smarttoolpicks.net/images/guides/best-crm-software-small-business-2026-prod1.jpg' },
+      { name: 'Freshsales', brand: 'Freshworks', price: '$15/mo', url: 'https://amzn.to/example', tag: 'Best for Sales Automation', image: 'https://smarttoolpicks.net/images/guides/best-crm-software-small-business-2026-prod2.jpg' },
+      { name: 'Pipedrive', brand: 'Pipedrive', price: '$14.90/mo', url: 'https://amzn.to/example', tag: 'Best for Pipeline Management', image: 'https://smarttoolpicks.net/images/guides/best-crm-software-small-business-2026-prod3.jpg' },
     ],
   },
   {
@@ -89,12 +89,12 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-23',
     tag: 'Guide',
     emoji: '💻',
-    image: '/images/guides/ultimate-wfh-desk-setup-guide-2026-hero.jpg',
+    image: 'https://smarttoolpicks.net/images/guides/ultimate-wfh-desk-setup-guide-2026-hero.jpg',
     affiliateProducts: [
-      { name: 'Fully Jarvis Bamboo Standing Desk', brand: 'Fully', price: '$599', url: 'https://amzn.to/example', tag: 'Best Overall', image: '/images/guides/ultimate-wfh-desk-setup-guide-2026-prod0.jpg' },
-      { name: 'Herman Miller Aeron Chair', brand: 'Herman Miller', price: '$1,805', url: 'https://amzn.to/example', tag: 'Best for Ergonomics', image: '/images/guides/ultimate-wfh-desk-setup-guide-2026-prod1.jpg' },
-      { name: 'Dell UltraSharp U2723QE Monitor', brand: 'Dell', price: '$625', url: 'https://amzn.to/example', tag: 'Best for Visuals', image: '/images/guides/ultimate-wfh-desk-setup-guide-2026-prod2.jpg' },
-      { name: 'Shure MV7 Podcast Microphone', brand: 'Shure', price: '$249', url: 'https://amzn.to/example', tag: 'Best for Communication', image: '/images/guides/ultimate-wfh-desk-setup-guide-2026-prod3.jpg' },
+      { name: 'Fully Jarvis Bamboo Standing Desk', brand: 'Fully', price: '$599', url: 'https://amzn.to/example', tag: 'Best Overall', image: 'https://smarttoolpicks.net/images/guides/ultimate-wfh-desk-setup-guide-2026-prod0.jpg' },
+      { name: 'Herman Miller Aeron Chair', brand: 'Herman Miller', price: '$1,805', url: 'https://amzn.to/example', tag: 'Best for Ergonomics', image: 'https://smarttoolpicks.net/images/guides/ultimate-wfh-desk-setup-guide-2026-prod1.jpg' },
+      { name: 'Dell UltraSharp U2723QE Monitor', brand: 'Dell', price: '$625', url: 'https://amzn.to/example', tag: 'Best for Visuals', image: 'https://smarttoolpicks.net/images/guides/ultimate-wfh-desk-setup-guide-2026-prod2.jpg' },
+      { name: 'Shure MV7 Podcast Microphone', brand: 'Shure', price: '$249', url: 'https://amzn.to/example', tag: 'Best for Communication', image: 'https://smarttoolpicks.net/images/guides/ultimate-wfh-desk-setup-guide-2026-prod3.jpg' },
     ],
   },
   {
@@ -106,12 +106,12 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-23',
     tag: 'Guide',
     emoji: '💻',
-    image: '/images/guides/best-email-marketing-platforms-2026-hero.jpg',
+    image: 'https://smarttoolpicks.net/images/guides/best-email-marketing-platforms-2026-hero.jpg',
     affiliateProducts: [
-      { name: 'ActiveCampaign', brand: 'ActiveCampaign', price: '$29/mo', url: 'https://amzn.to/example', tag: 'Best Overall', image: '/images/guides/best-email-marketing-platforms-2026-prod0.jpg' },
-      { name: 'ConvertKit', brand: 'ConvertKit', price: '$9/mo', url: 'https://amzn.to/example', tag: 'Best for Creators', image: '/images/guides/best-email-marketing-platforms-2026-prod1.jpg' },
-      { name: 'Klaviyo', brand: 'Klaviyo', price: '$35/mo', url: 'https://amzn.to/example', tag: 'Best for E-commerce', image: '/images/guides/best-email-marketing-platforms-2026-prod2.jpg' },
-      { name: 'Brevo (formerly Sendinblue)', brand: 'Brevo', price: '$0/mo (Free Plan)', url: 'https://amzn.to/example', tag: 'Best Free Plan', image: '/images/guides/best-email-marketing-platforms-2026-prod3.jpg' },
+      { name: 'ActiveCampaign', brand: 'ActiveCampaign', price: '$29/mo', url: 'https://amzn.to/example', tag: 'Best Overall', image: 'https://smarttoolpicks.net/images/guides/best-email-marketing-platforms-2026-prod0.jpg' },
+      { name: 'ConvertKit', brand: 'ConvertKit', price: '$9/mo', url: 'https://amzn.to/example', tag: 'Best for Creators', image: 'https://smarttoolpicks.net/images/guides/best-email-marketing-platforms-2026-prod1.jpg' },
+      { name: 'Klaviyo', brand: 'Klaviyo', price: '$35/mo', url: 'https://amzn.to/example', tag: 'Best for E-commerce', image: 'https://smarttoolpicks.net/images/guides/best-email-marketing-platforms-2026-prod2.jpg' },
+      { name: 'Brevo (formerly Sendinblue)', brand: 'Brevo', price: '$0/mo (Free Plan)', url: 'https://amzn.to/example', tag: 'Best Free Plan', image: 'https://smarttoolpicks.net/images/guides/best-email-marketing-platforms-2026-prod3.jpg' },
     ],
   },
   {
@@ -123,12 +123,12 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-23',
     tag: 'Guide',
     emoji: '💻',
-    image: '/images/guides/best-video-editing-software-2026-hero.jpg',
+    image: 'https://smarttoolpicks.net/images/guides/best-video-editing-software-2026-hero.jpg',
     affiliateProducts: [
-      { name: 'Adobe Premiere Pro', brand: 'Adobe', price: '$22.99/mo', url: 'https://amzn.to/example', tag: 'Best Overall', image: '/images/guides/best-video-editing-software-2026-prod0.jpg' },
-      { name: 'Final Cut Pro', brand: 'Apple', price: '$299.99', url: 'https://amzn.to/example', tag: 'Best for Mac', image: '/images/guides/best-video-editing-software-2026-prod1.jpg' },
-      { name: 'DaVinci Resolve', brand: 'Blackmagic Design', price: 'Free / $295', url: 'https://amzn.to/example', tag: 'Best Free Option', image: '/images/guides/best-video-editing-software-2026-prod2.jpg' },
-      { name: 'Descript', brand: 'Descript', price: '$15/mo', url: 'https://amzn.to/example', tag: 'Best for Creators', image: '/images/guides/best-video-editing-software-2026-prod3.jpg' },
+      { name: 'Adobe Premiere Pro', brand: 'Adobe', price: '$22.99/mo', url: 'https://amzn.to/example', tag: 'Best Overall', image: 'https://smarttoolpicks.net/images/guides/best-video-editing-software-2026-prod0.jpg' },
+      { name: 'Final Cut Pro', brand: 'Apple', price: '$299.99', url: 'https://amzn.to/example', tag: 'Best for Mac', image: 'https://smarttoolpicks.net/images/guides/best-video-editing-software-2026-prod1.jpg' },
+      { name: 'DaVinci Resolve', brand: 'Blackmagic Design', price: 'Free / $295', url: 'https://amzn.to/example', tag: 'Best Free Option', image: 'https://smarttoolpicks.net/images/guides/best-video-editing-software-2026-prod2.jpg' },
+      { name: 'Descript', brand: 'Descript', price: '$15/mo', url: 'https://amzn.to/example', tag: 'Best for Creators', image: 'https://smarttoolpicks.net/images/guides/best-video-editing-software-2026-prod3.jpg' },
     ],
   },
   {
@@ -140,12 +140,12 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-23',
     tag: 'Guide',
     emoji: '💻',
-    image: '/images/guides/best-mechanical-keyboards-coders-2026-hero.jpg',
+    image: 'https://smarttoolpicks.net/images/guides/best-mechanical-keyboards-coders-2026-hero.jpg',
     affiliateProducts: [
-      { name: 'Keychron Q1 Pro', brand: 'Keychron', price: '$199', url: 'https://amzn.to/example', tag: 'Best Overall', image: '/images/guides/best-mechanical-keyboards-coders-2026-prod0.jpg' },
-      { name: 'ZSA Moonlander Mark I', brand: 'ZSA', price: '$365', url: 'https://amzn.to/example', tag: 'Best Ergonomic', image: '/images/guides/best-mechanical-keyboards-coders-2026-prod1.jpg' },
-      { name: 'HHKB Professional Hybrid Type-S', brand: 'HHKB', price: '$322', url: 'https://amzn.to/example', tag: 'Best Compact', image: '/images/guides/best-mechanical-keyboards-coders-2026-prod2.jpg' },
-      { name: 'Royal Kludge RK61', brand: 'Royal Kludge', price: '$50', url: 'https://amzn.to/example', tag: 'Best Budget', image: '/images/guides/best-mechanical-keyboards-coders-2026-prod3.jpg' },
+      { name: 'Keychron Q1 Pro', brand: 'Keychron', price: '$199', url: 'https://amzn.to/example', tag: 'Best Overall', image: 'https://smarttoolpicks.net/images/guides/best-mechanical-keyboards-coders-2026-prod0.jpg' },
+      { name: 'ZSA Moonlander Mark I', brand: 'ZSA', price: '$365', url: 'https://amzn.to/example', tag: 'Best Ergonomic', image: 'https://smarttoolpicks.net/images/guides/best-mechanical-keyboards-coders-2026-prod1.jpg' },
+      { name: 'HHKB Professional Hybrid Type-S', brand: 'HHKB', price: '$322', url: 'https://amzn.to/example', tag: 'Best Compact', image: 'https://smarttoolpicks.net/images/guides/best-mechanical-keyboards-coders-2026-prod2.jpg' },
+      { name: 'Royal Kludge RK61', brand: 'Royal Kludge', price: '$50', url: 'https://amzn.to/example', tag: 'Best Budget', image: 'https://smarttoolpicks.net/images/guides/best-mechanical-keyboards-coders-2026-prod3.jpg' },
     ],
   },
   {
@@ -157,12 +157,12 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-23',
     tag: 'Guide',
     emoji: '☁️',
-    image: '/images/guides/best-cloud-storage-solutions-2026-hero.jpg',
+    image: 'https://smarttoolpicks.net/images/guides/best-cloud-storage-solutions-2026-hero.jpg',
     affiliateProducts: [
-      { name: 'pCloud', brand: 'pCloud', price: '$49.99/yr', url: 'https://amzn.to/example', tag: 'Best Overall', image: '/images/guides/best-cloud-storage-solutions-2026-prod0.jpg' },
-      { name: 'Sync.com', brand: 'Sync.com', price: '$8/mo', url: 'https://amzn.to/example', tag: 'Best for Security', image: '/images/guides/best-cloud-storage-solutions-2026-prod1.jpg' },
-      { name: 'Google Drive', brand: 'Google', price: '$9.99/mo', url: 'https://amzn.to/example', tag: 'Best for Collaboration', image: '/images/guides/best-cloud-storage-solutions-2026-prod2.jpg' },
-      { name: 'Microsoft OneDrive', brand: 'Microsoft', price: '$6.99/mo', url: 'https://amzn.to/example', tag: 'Best for Windows/Office Users', image: '/images/guides/best-cloud-storage-solutions-2026-prod3.jpg' },
+      { name: 'pCloud', brand: 'pCloud', price: '$49.99/yr', url: 'https://amzn.to/example', tag: 'Best Overall', image: 'https://smarttoolpicks.net/images/guides/best-cloud-storage-solutions-2026-prod0.jpg' },
+      { name: 'Sync.com', brand: 'Sync.com', price: '$8/mo', url: 'https://amzn.to/example', tag: 'Best for Security', image: 'https://smarttoolpicks.net/images/guides/best-cloud-storage-solutions-2026-prod1.jpg' },
+      { name: 'Google Drive', brand: 'Google', price: '$9.99/mo', url: 'https://amzn.to/example', tag: 'Best for Collaboration', image: 'https://smarttoolpicks.net/images/guides/best-cloud-storage-solutions-2026-prod2.jpg' },
+      { name: 'Microsoft OneDrive', brand: 'Microsoft', price: '$6.99/mo', url: 'https://amzn.to/example', tag: 'Best for Windows/Office Users', image: 'https://smarttoolpicks.net/images/guides/best-cloud-storage-solutions-2026-prod3.jpg' },
     ],
   },
   {
@@ -174,12 +174,12 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-23',
     tag: 'Guide',
     emoji: '📝',
-    image: '/images/guides/best-note-taking-apps-productivity-2026-hero.jpg',
+    image: 'https://smarttoolpicks.net/images/guides/best-note-taking-apps-productivity-2026-hero.jpg',
     affiliateProducts: [
-      { name: 'Evernote', brand: 'Evernote', price: '$14.99/mo', url: 'https://amzn.to/example', tag: 'Best Overall', image: '/images/guides/best-note-taking-apps-productivity-2026-prod0.jpg' },
-      { name: 'Notion', brand: 'Notion', price: '$10/mo', url: 'https://amzn.to/example', tag: 'Best for Teams', image: '/images/guides/best-note-taking-apps-productivity-2026-prod1.jpg' },
-      { name: 'Obsidian', brand: 'Obsidian', price: '$8/mo', url: 'https://amzn.to/example', tag: 'Best for Power Users', image: '/images/guides/best-note-taking-apps-productivity-2026-prod2.jpg' },
-      { name: 'Microsoft OneNote', brand: 'Microsoft', price: '$0/mo', url: 'https://amzn.to/example', tag: 'Best Free Option', image: '/images/guides/best-note-taking-apps-productivity-2026-prod3.jpg' },
+      { name: 'Evernote', brand: 'Evernote', price: '$14.99/mo', url: 'https://amzn.to/example', tag: 'Best Overall', image: 'https://smarttoolpicks.net/images/guides/best-note-taking-apps-productivity-2026-prod0.jpg' },
+      { name: 'Notion', brand: 'Notion', price: '$10/mo', url: 'https://amzn.to/example', tag: 'Best for Teams', image: 'https://smarttoolpicks.net/images/guides/best-note-taking-apps-productivity-2026-prod1.jpg' },
+      { name: 'Obsidian', brand: 'Obsidian', price: '$8/mo', url: 'https://amzn.to/example', tag: 'Best for Power Users', image: 'https://smarttoolpicks.net/images/guides/best-note-taking-apps-productivity-2026-prod2.jpg' },
+      { name: 'Microsoft OneNote', brand: 'Microsoft', price: '$0/mo', url: 'https://amzn.to/example', tag: 'Best Free Option', image: 'https://smarttoolpicks.net/images/guides/best-note-taking-apps-productivity-2026-prod3.jpg' },
     ],
   },
 ];
@@ -193,22 +193,22 @@ export function getGuidesByCategory(category: string) {
   return guides.filter(g => g.category === category);
 }
 
-export function getAllProducts(): (AffiliateProduct & { fromGuide: string; fromGuideSlug: string })[] {
+export function getAllProducts(): (AffiliateProduct & { fromGuide: string; fromGuideSlug: string; category: string })[] {
   const seen = new Set<string>();
-  const products: (AffiliateProduct & { fromGuide: string; fromGuideSlug: string })[] = [];
+  const products: (AffiliateProduct & { fromGuide: string; fromGuideSlug: string; category: string })[] = [];
   for (const guide of guides) {
     if (!guide.affiliateProducts) continue;
     for (const p of guide.affiliateProducts) {
       const key = `${p.name}|${p.brand}`;
       if (seen.has(key)) continue;
       seen.add(key);
-      products.push({ ...p, fromGuide: guide.title, fromGuideSlug: guide.slug });
+      products.push({ ...p, fromGuide: guide.title, fromGuideSlug: guide.slug, category: guide.category });
     }
   }
   return products;
 }
 
-export function getFeaturedProducts(count: number = 8): (AffiliateProduct & { fromGuide: string; fromGuideSlug: string })[] {
+export function getFeaturedProducts(count: number = 8): (AffiliateProduct & { fromGuide: string; fromGuideSlug: string; category: string })[] {
   const all = getAllProducts();
   const priorityTags = ['Editor Pick', 'Best Overall', 'Best Value', 'Best Seller', 'Trend Pick', 'Must Have', '#1 Must Have', 'Top Pick'];
   const featured = all.filter(p => p.tag && priorityTags.includes(p.tag));
@@ -216,9 +216,9 @@ export function getFeaturedProducts(count: number = 8): (AffiliateProduct & { fr
   return [...featured, ...rest].slice(0, count);
 }
 
-export function getProductsByCategory(category: string, count: number = 8): (AffiliateProduct & { fromGuide: string; fromGuideSlug: string })[] {
+export function getProductsByCategory(category: string, count: number = 8): (AffiliateProduct & { fromGuide: string; fromGuideSlug: string; category: string })[] {
   const seen = new Set<string>();
-  const products: (AffiliateProduct & { fromGuide: string; fromGuideSlug: string })[] = [];
+  const products: (AffiliateProduct & { fromGuide: string; fromGuideSlug: string; category: string })[] = [];
   const categoryGuides = category === 'all' ? guides : guides.filter(g => g.category === category);
   for (const guide of categoryGuides) {
     if (!guide.affiliateProducts) continue;
@@ -226,7 +226,7 @@ export function getProductsByCategory(category: string, count: number = 8): (Aff
       const key = `${p.name}|${p.brand}`;
       if (seen.has(key)) continue;
       seen.add(key);
-      products.push({ ...p, fromGuide: guide.title, fromGuideSlug: guide.slug });
+      products.push({ ...p, fromGuide: guide.title, fromGuideSlug: guide.slug, category: guide.category });
     }
   }
   return products.slice(0, count);
