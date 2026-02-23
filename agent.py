@@ -132,11 +132,11 @@ def mark_topic_as_used(keyword):
 
 # Verified fallback images (all confirmed 200 OK)
 FALLBACK_IMAGES = [
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-    "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=600&h=400&fit=crop",
-    "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=400&fit=crop",
-    "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
-    "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop",
+    "https://placehold.co/600x400?text=Image",
+    "https://placehold.co/600x400?text=Image",
+    "https://placehold.co/600x400?text=Image",
+    "https://placehold.co/600x400?text=Image",
+    "https://placehold.co/600x400?text=Image",
 ]
 
 def validate_image_url(url, timeout=10):

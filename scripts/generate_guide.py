@@ -60,7 +60,7 @@ def generate_imagen_image(gemini_client, prompt: str, slug: str, suffix: str, as
     except Exception as e:
         print(f"❌ Error generating image: {e}")
     
-    return "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop"
+    return "https://placehold.co/600x400?text=Image"
 
 def generate_guide_json(client, existing_slugs: list[str]) -> dict:
     prompt = f"""You are an elite B2B SaaS and tech gear content strategist for SmartToolPicks. Your goal is to drive organic traffic and maximize affiliate conversions.
