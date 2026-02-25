@@ -26,9 +26,9 @@ export default function Footer() {
           <div>
             <h4 className="font-display font-semibold text-gray-900 text-sm mb-3">Popular</h4>
             <div className="space-y-2">
-              <Link href="/guides/rise-of-no-code-ai-tools-build-automate" className="block text-sm text-gray-400 hover:text-gray-600 transition-colors">No-Code AI Tools</Link>
+              <Link href="/guides/best-ai-writing-assistants-2026" className="block text-sm text-gray-400 hover:text-gray-600 transition-colors">AI Writing Tools</Link>
               <Link href="/guides/best-project-management-tools-2026" className="block text-sm text-gray-400 hover:text-gray-600 transition-colors">Project Management</Link>
-              <Link href="/guides/top-crm-software-compared" className="block text-sm text-gray-400 hover:text-gray-600 transition-colors">CRM Comparison</Link>
+              <Link href="/guides/best-crm-software-small-business-2026" className="block text-sm text-gray-400 hover:text-gray-600 transition-colors">Best CRM Software</Link>
             </div>
           </div>
           <div>

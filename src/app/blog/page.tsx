@@ -16,7 +16,7 @@ const posts = [
     date: 'Feb 18, 2026',
     time: '8 min',
     cat: 'AI',
-    image: '/images/guides/blog-ai-tools.svg',
+    image: '/images/guides/blog-ai-tools.webp',
     link: '/blog/ai-tools-replacing-saas',
   },
   {
@@ -26,7 +26,7 @@ const posts = [
     date: 'Feb 17, 2026',
     time: '6 min',
     cat: 'Trends',
-    image: '/images/guides/blog-pm-trends.svg',
+    image: '/images/guides/blog-pm-trends.webp',
     link: '/blog/project-management-trends',
   },
   {
@@ -36,7 +36,7 @@ const posts = [
     date: 'Feb 16, 2026',
     time: '7 min',
     cat: 'Guide',
-    image: '/images/guides/blog-pricing.svg',
+    image: '/images/guides/blog-pricing.webp',
     link: '/blog/saas-pricing-mistakes',
   },
   {
@@ -46,7 +46,7 @@ const posts = [
     date: 'Feb 15, 2026',
     time: '11 min',
     cat: 'Comparison',
-    image: '/images/guides/blog-notion-clickup.svg',
+    image: '/images/guides/blog-notion-clickup.webp',
     link: '/blog/notion-vs-clickup',
   },
   {
@@ -56,7 +56,7 @@ const posts = [
     date: 'Feb 14, 2026',
     time: '15 min',
     cat: 'Review',
-    image: '/images/guides/blog-free-tools.svg',
+    image: '/images/guides/blog-free-tools.webp',
     link: '/blog/best-free-tools-startups',
   },
   {
@@ -66,7 +66,7 @@ const posts = [
     date: 'Feb 12, 2026',
     time: '16 min',
     cat: 'Guide',
-    image: '/images/guides/blog-crm-guide.svg',
+    image: '/images/guides/blog-crm-guide.webp',
     link: '/blog/crm-buying-guide',
   },
   {
@@ -76,7 +76,7 @@ const posts = [
     date: 'Feb 10, 2026',
     time: '12 min',
     cat: 'Tutorial',
-    image: '/images/guides/blog-no-code.svg',
+    image: '/images/guides/blog-no-code.webp',
     link: '/blog/no-code-automation',
   },
   {
@@ -86,7 +86,7 @@ const posts = [
     date: 'Feb 8, 2026',
     time: '12 min',
     cat: 'Comparison',
-    image: '/images/guides/blog-design-showdown.svg',
+    image: '/images/guides/blog-design-showdown.webp',
     link: '/blog/design-tool-showdown',
   },
 ];
