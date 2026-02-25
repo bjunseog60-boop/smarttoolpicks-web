@@ -37,6 +37,8 @@ export default function Footer() {
               <Link href="/about" className="block text-sm text-gray-400 hover:text-gray-600 transition-colors">About</Link>
               <Link href="/contact" className="block text-sm text-gray-400 hover:text-gray-600 transition-colors">Contact</Link>
               <Link href="/privacy" className="block text-sm text-gray-400 hover:text-gray-600 transition-colors">Privacy Policy</Link>
+              <Link href="/terms" className="block text-sm text-gray-400 hover:text-gray-600 transition-colors">Terms of Service</Link>
+              <Link href="/affiliate-disclosure" className="block text-sm text-gray-400 hover:text-gray-600 transition-colors">Affiliate Disclosure</Link>
             </div>
           </div>
         </div>
@@ -52,6 +54,10 @@ export default function Footer() {
           <p className="text-xs text-gray-400">&copy; {new Date().getFullYear()} SmartToolPicks. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <Link href="/privacy" className="text-xs text-gray-400 hover:text-gray-600 transition-colors">Privacy</Link>
+            <span className="text-gray-200">|</span>
+            <Link href="/terms" className="text-xs text-gray-400 hover:text-gray-600 transition-colors">Terms</Link>
+            <span className="text-gray-200">|</span>
+            <Link href="/affiliate-disclosure" className="text-xs text-gray-400 hover:text-gray-600 transition-colors">Affiliate Disclosure</Link>
             <span className="text-gray-200">|</span>
             <Link href="/about" className="text-xs text-gray-400 hover:text-gray-600 transition-colors">About</Link>
           </div>
