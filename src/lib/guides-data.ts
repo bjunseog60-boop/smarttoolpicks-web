@@ -531,7 +531,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-25',
     tag: "Comparison",
     emoji: '📋',
-    image: '/images/guides/asana-vs-monday-com-2026-hero.jpg',
+    image: '/images/guides/asana-vs-monday-com-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Asana Premium",
@@ -577,7 +577,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-24',
     tag: "Free Alternatives",
     emoji: "\ud83d\udcac",
-    image: '/images/guides/best-free-alternatives-to-slack-2026-hero.jpg',
+    image: '/images/guides/best-free-alternatives-to-slack-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Discord (Free)",
@@ -623,7 +623,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-24',
     tag: "Free Alternatives",
     emoji: "\ud83d\udcca",
-    image: '/images/guides/best-free-crm-software-2026-hero.jpg',
+    image: '/images/guides/best-free-crm-software-2026-hero.webp',
     affiliateProducts: [
       {
         name: "HubSpot CRM Free",
@@ -669,7 +669,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-25',
     tag: "Free Alternatives",
     emoji: '📋',
-    image: '/images/guides/best-free-design-tools-2026-hero.jpg',
+    image: '/images/guides/best-free-design-tools-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Canva Free",
@@ -713,7 +713,7 @@ export const guides: StyleGuide[] = [  {
     category: 'marketing',
     tag: "Email",
     readTime: "11 min read",
-    image: '/images/guides/best-free-email-marketing-tools-2026.jpg',
+    image: '/images/guides/best-free-email-marketing-tools-2026-hero.webp',
     emoji: "\ud83d\udce7",
     date: '2026-02-25',
   },
@@ -727,7 +727,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-24',
     tag: "Free Alternatives",
     emoji: "\ud83d\udccb",
-    image: '/images/guides/best-free-project-management-tools-2026-hero.jpg',
+    image: '/images/guides/best-free-project-management-tools-2026-hero.webp',
     affiliateProducts: [
       {
         name: "ClickUp Free",
@@ -773,7 +773,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-24',
     tag: 'Guide',
     emoji: '⚡',
-    image: '/images/guides/best-portable-charger-2026-hero.jpg',
+    image: '/images/guides/best-portable-charger-2026-hero.webp',
     affiliateProducts: [
       { name: 'Anker 737 Power Bank 24000mAh 140W', brand: 'Anker', price: '$109', url: 'https://amzn.to/example', tag: 'Best Overall', image: '/images/guides/best-portable-charger-2026-prod0.jpg' },
       { name: 'Baseus Blade 2 20000mAh 65W', brand: 'Baseus', price: '$59', url: 'https://amzn.to/example', tag: 'Best for Laptop Users', image: '/images/guides/best-portable-charger-2026-prod1.jpg' },
@@ -791,7 +791,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-24',
     tag: "Review",
     emoji: "\ud83c\udfa8",
-    image: '/images/guides/canva-pro-review-2026-hero.jpg',
+    image: '/images/guides/canva-pro-review-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Canva Pro",
@@ -837,7 +837,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-24',
     tag: "Review",
     emoji: "\ud83d\udccb",
-    image: '/images/guides/clickup-review-2026-hero.jpg',
+    image: '/images/guides/clickup-review-2026-hero.webp',
     affiliateProducts: [
       {
         name: "ClickUp Unlimited",
@@ -883,7 +883,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-24',
     tag: "Review",
     emoji: "\u270d\ufe0f",
-    image: '/images/guides/grammarly-business-review-2026-hero.jpg',
+    image: '/images/guides/grammarly-business-review-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Grammarly Business",
