@@ -563,7 +563,7 @@ export const guides: StyleGuide[] = [  {
         price: "$5/user/mo",
         url: "https://trello.com/pricing",
         tag: "Simplest",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/trello-premium.webp',
       },
     ],
   },
@@ -677,7 +677,7 @@ export const guides: StyleGuide[] = [  {
         price: "Free",
         url: "https://www.canva.com/pricing/",
         tag: "Most Templates",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/canva-free.webp',
       },
       {
         name: "Figma Free",
