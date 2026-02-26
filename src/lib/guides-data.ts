@@ -215,7 +215,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Comparison',
     emoji: '📧',
-    image: '/images/guides/marketing-automation.webp',
+    image: '/images/guides/hubspot-vs-mailchimp-2026-hero.webp',
   },
   {
     slug: 'trello-vs-asana-2026',
@@ -327,7 +327,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '💻',
-    image: '/images/guides/guide-no-code.webp',
+    image: '/images/guides/best-ai-coding-assistants-2026-hero.webp',
   },
   {
     slug: 'best-free-ai-tools-2026',
@@ -338,7 +338,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '🆓',
-    image: '/images/guides/no-code-ai-tools.webp',
+    image: '/images/guides/best-free-ai-tools-2026-hero.webp',
   },
 
   // ─── Phase 4b: Productivity (6) ───────────────────────
@@ -384,7 +384,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '🎯',
-    image: '/images/guides/productivity-hybrid-teams.webp',
+    image: '/images/guides/best-focus-apps-2026-hero.webp',
   },
   {
     slug: 'best-remote-work-tools-2026',
@@ -395,7 +395,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '🏠',
-    image: '/images/guides/productivity-hybrid-teams.webp',
+    image: '/images/guides/best-remote-work-tools-2026-hero.webp',
   },
   {
     slug: 'best-team-collaboration-tools-2026',
@@ -419,7 +419,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '🧾',
-    image: '/images/guides/crm-small-business.webp',
+    image: '/images/guides/best-invoicing-software-2026-hero.webp',
   },
   {
     slug: 'best-website-builders-2026',
@@ -441,7 +441,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '📈',
-    image: '/images/guides/crm-small-business.webp',
+    image: '/images/guides/best-accounting-software-2026-hero.webp',
   },
   {
     slug: 'best-social-media-management-tools-2026',
@@ -474,7 +474,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '🎧',
-    image: '/images/guides/crm-small-business.webp',
+    image: '/images/guides/best-customer-support-tools-2026-hero.webp',
   },
 
   // ─── Phase 4b: How-To Guides (4) ─────────────────────
@@ -498,7 +498,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '💰',
-    image: '/images/guides/guide-no-code.webp',
+    image: '/images/guides/best-free-alternatives-to-paid-software-2026-hero.webp',
   },
   {
     slug: 'how-to-build-no-code-app-2026',
@@ -509,7 +509,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'How-To',
     emoji: '🏗️',
-    image: '/images/guides/guide-no-code.webp',
+    image: '/images/guides/how-to-build-no-code-app-2026-hero.webp',
   },
   {
     slug: 'how-to-choose-the-right-saas-tools-2026',
