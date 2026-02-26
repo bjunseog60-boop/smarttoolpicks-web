@@ -226,7 +226,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Comparison',
     emoji: '📋',
-    image: '/images/guides/pm-agile-teams.webp',
+    image: '/images/guides/trello-vs-asana-2026-hero.webp',
   },
   {
     slug: 'airtable-vs-google-sheets-2026',
