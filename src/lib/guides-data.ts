@@ -248,7 +248,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Comparison',
     emoji: '🗂️',
-    image: '/images/guides/guide-pm-tools.webp',
+    image: '/images/guides/monday-vs-clickup-2026-hero.webp',
   },
   {
     slug: 'figma-vs-adobe-xd-2026',
@@ -270,7 +270,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Comparison',
     emoji: '☁️',
-    image: '/images/guides/team-collaboration.webp',
+    image: '/images/guides/google-workspace-vs-microsoft-365-2026-hero.webp',
   },
 
   // ─── Phase 4a: AI Tools (6) ────────────────────────────
@@ -283,7 +283,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '🖼️',
-    image: '/images/guides/ai-marketing-automation.webp',
+    image: '/images/guides/best-ai-image-generators-2026-hero.webp',
   },
   {
     slug: 'chatgpt-vs-claude-2026',
@@ -294,7 +294,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Comparison',
     emoji: '🤖',
-    image: '/images/guides/no-code-ai-tools.webp',
+    image: '/images/guides/chatgpt-vs-claude-2026-hero.webp',
   },
   {
     slug: 'best-ai-tools-for-small-business-2026',
@@ -316,7 +316,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '🎬',
-    image: '/images/guides/ai-marketing-automation.webp',
+    image: '/images/guides/best-ai-video-generators-2026-hero.webp',
   },
   {
     slug: 'best-ai-coding-assistants-2026',
@@ -362,7 +362,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '📅',
-    image: '/images/guides/ai-productivity-tools.webp',
+    image: '/images/guides/best-calendar-apps-2026-hero.webp',
   },
   {
     slug: 'best-todo-list-apps-2026',
@@ -406,7 +406,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '👥',
-    image: '/images/guides/team-collaboration.webp',
+    image: '/images/guides/best-team-collaboration-tools-2026-hero.webp',
   },
 
   // ─── Phase 4b: Small Business Tools (6) ──────────────
@@ -452,7 +452,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '📱',
-    image: '/images/guides/ai-marketing-automation.webp',
+    image: '/images/guides/best-social-media-management-tools-2026-hero.webp',
   },
   {
     slug: 'best-video-conferencing-tools-2026',
@@ -463,7 +463,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '📹',
-    image: '/images/guides/team-collaboration.webp',
+    image: '/images/guides/best-video-conferencing-tools-2026-hero.webp',
   },
   {
     slug: 'best-customer-support-tools-2026',
@@ -520,7 +520,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'How-To',
     emoji: '🔍',
-    image: '/images/guides/ai-productivity-tools.webp',
+    image: '/images/guides/how-to-choose-the-right-saas-tools-2026-hero.webp',
   },
 {
     slug: 'asana-vs-monday-com-2026',
