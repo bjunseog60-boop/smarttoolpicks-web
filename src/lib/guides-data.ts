@@ -775,10 +775,10 @@ export const guides: StyleGuide[] = [  {
     emoji: '⚡',
     image: '/images/guides/best-portable-charger-2026-hero.webp',
     affiliateProducts: [
-      { name: 'Anker 737 Power Bank 24000mAh 140W', brand: 'Anker', price: '$109', url: 'https://amzn.to/example', tag: 'Best Overall', image: '/images/guides/best-portable-charger-2026-prod0.jpg' },
-      { name: 'Baseus Blade 2 20000mAh 65W', brand: 'Baseus', price: '$59', url: 'https://amzn.to/example', tag: 'Best for Laptop Users', image: '/images/guides/best-portable-charger-2026-prod1.jpg' },
-      { name: 'Zendure SuperMini 10000mAh 45W', brand: 'Zendure', price: '$44', url: 'https://amzn.to/example', tag: 'Best for Travel Light', image: '/images/guides/best-portable-charger-2026-prod2.jpg' },
-      { name: 'INIU 27000mAh 65W Power Bank', brand: 'INIU', price: '$49', url: 'https://amzn.to/example', tag: 'Best Budget Capacity', image: '/images/guides/best-portable-charger-2026-prod3.jpg' },
+      { name: 'Anker 737 Power Bank 24000mAh 140W', brand: 'Anker', price: '$109', url: 'https://amzn.to/example', tag: 'Best Overall', image: '/images/guides/anker-737-power-bank.webp' },
+      { name: 'Baseus Blade 2 20000mAh 65W', brand: 'Baseus', price: '$59', url: 'https://amzn.to/example', tag: 'Best for Laptop Users', image: '/images/guides/baseus-blade-2.webp' },
+      { name: 'Zendure SuperMini 10000mAh 45W', brand: 'Zendure', price: '$44', url: 'https://amzn.to/example', tag: 'Best for Travel Light', image: '/images/guides/zendure-supermini.webp' },
+      { name: 'INIU 27000mAh 65W Power Bank', brand: 'INIU', price: '$49', url: 'https://amzn.to/example', tag: 'Best Budget Capacity', image: '/images/guides/iniu-power-bank.webp' },
     ],
   },
 
