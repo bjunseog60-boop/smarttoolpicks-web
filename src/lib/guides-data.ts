@@ -929,7 +929,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-25',
     tag: "How-To",
     emoji: '📋',
-    image: '/images/guides/how-to-automate-email-marketing-2026-hero.jpg',
+    image: '/images/guides/how-to-automate-email-marketing-2026-hero.webp',
     affiliateProducts: [
       {
         name: "ActiveCampaign Plus",
@@ -975,7 +975,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-24',
     tag: "How-To",
     emoji: "\ud83c\udf10",
-    image: '/images/guides/how-to-build-remote-team-tech-stack-hero.jpg',
+    image: '/images/guides/how-to-build-remote-team-tech-stack-hero.webp',
     affiliateProducts: [
       {
         name: "Notion Team",
@@ -1021,7 +1021,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-24',
     tag: "How-To",
     emoji: "\ud83d\udcca",
-    image: '/images/guides/how-to-choose-crm-small-business-hero.jpg',
+    image: '/images/guides/how-to-choose-crm-small-business-hero.webp',
     affiliateProducts: [
       {
         name: "HubSpot CRM Free",
@@ -1067,7 +1067,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-24',
     tag: "How-To",
     emoji: "\u26a1",
-    image: '/images/guides/how-to-pick-project-management-tool-hero.jpg',
+    image: '/images/guides/how-to-pick-project-management-tool-hero.webp',
     affiliateProducts: [
       {
         name: "Asana Starter",
@@ -1113,7 +1113,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-25',
     tag: "How-To",
     emoji: '📋',
-    image: '/images/guides/how-to-use-ai-writing-tools-for-seo-hero.jpg',
+    image: '/images/guides/how-to-use-ai-writing-tools-for-seo-hero.webp',
     affiliateProducts: [
       {
         name: "Surfer SEO + AI",
@@ -1159,7 +1159,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-24',
     tag: "Review",
     emoji: "\ud83d\udcca",
-    image: '/images/guides/hubspot-crm-review-2026-hero.jpg',
+    image: '/images/guides/hubspot-crm-review-2026-hero.webp',
     affiliateProducts: [
       {
         name: "HubSpot CRM Free",
@@ -1205,7 +1205,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-24',
     tag: "Comparison",
     emoji: "\ud83d\udce7",
-    image: '/images/guides/mailchimp-vs-klaviyo-2026-hero.jpg',
+    image: '/images/guides/mailchimp-vs-klaviyo-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Mailchimp Standard",
@@ -1251,7 +1251,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-25',
     tag: "Review",
     emoji: '📋',
-    image: '/images/guides/notion-review-2026-hero.jpg',
+    image: '/images/guides/notion-review-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Notion Plus",
@@ -1297,7 +1297,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-25',
     tag: "Comparison",
     emoji: '📋',
-    image: '/images/guides/notion-vs-obsidian-2026-hero.jpg',
+    image: '/images/guides/notion-vs-obsidian-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Notion Team Plan",
@@ -1343,7 +1343,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-24',
     tag: "Comparison",
     emoji: "\ud83d\udcac",
-    image: '/images/guides/slack-vs-microsoft-teams-2026-hero.jpg',
+    image: '/images/guides/slack-vs-microsoft-teams-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Slack Pro",
