@@ -3,6 +3,7 @@ import { batch12Content } from './guides-content-batch12';
 import { newGuidesContent } from './guides-content-new';
 import { stpPhase4aContent } from './guides-content-stp-phase4a';
 import { stpPhase4bContent } from './guides-content-stp-phase4b';
+import { guidesContentPhase4 } from './guides-content-phase4';
 
 export interface ContentSection {
   heading: string;
@@ -15,4 +16,5 @@ export const guidesContent: Record<string, ContentSection[]> = {
   ...newGuidesContent,
   ...stpPhase4aContent,
   ...stpPhase4bContent,
+  ...guidesContentPhase4,
 };
