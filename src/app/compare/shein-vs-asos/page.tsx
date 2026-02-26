@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   description: 'Monday.com vs Asana: we compared both project management tools on pricing, features, collaboration, automations, and ease of use. Find your winner.',
   keywords: ['monday vs asana', 'monday.com review 2026', 'asana review 2026', 'best project management software', 'monday asana comparison'],
   alternates: { canonical: `${SITE_URL}/compare/monday-vs-asana` },
+  robots: { index: false },
 };
 
 const data = [

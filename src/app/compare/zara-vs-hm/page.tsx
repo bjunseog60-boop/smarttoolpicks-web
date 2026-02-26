@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   description: 'HubSpot vs Salesforce: we compare pricing, ease of use, features, and scalability to help you choose the right CRM. See which wins for small and mid-size businesses.',
   keywords: ['hubspot vs salesforce', 'hubspot review 2026', 'salesforce review', 'best crm 2026', 'hubspot salesforce comparison'],
   alternates: { canonical: `${SITE_URL}/compare/hubspot-vs-salesforce` },
+  robots: { index: false },
 };
 
 const data = [

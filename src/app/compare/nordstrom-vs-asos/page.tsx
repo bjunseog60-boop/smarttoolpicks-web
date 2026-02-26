@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   description: 'We compared Notion and ClickUp across 9 key categories. Find out which productivity tool fits your workflow -- and which is worth paying for in 2026.',
   keywords: ['notion vs clickup', 'notion review 2026', 'clickup review', 'best project management tool', 'notion clickup comparison 2026'],
   alternates: { canonical: `${SITE_URL}/compare/notion-vs-clickup` },
+  robots: { index: false },
 };
 
 const data = [
