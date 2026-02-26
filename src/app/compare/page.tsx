@@ -8,21 +8,21 @@ export const metadata: Metadata = {
 
 const comparisons = [
   {
-    slug: 'nordstrom-vs-asos',
+    slug: 'notion-vs-clickup',
     title: 'Notion vs ClickUp',
     subtitle: 'Docs-first vs task-first -- which all-in-one workspace actually wins?',
     verdict: 'ClickUp edges ahead',
     tags: ['Productivity', 'Project Management'],
   },
   {
-    slug: 'shein-vs-asos',
+    slug: 'monday-vs-asana',
     title: 'Monday.com vs Asana',
     subtitle: 'Visual workflows vs structured task clarity -- tested head-to-head',
     verdict: 'Monday.com wins on flexibility',
     tags: ['Project Management', 'Productivity'],
   },
   {
-    slug: 'zara-vs-hm',
+    slug: 'hubspot-vs-salesforce',
     title: 'HubSpot vs Salesforce',
     subtitle: 'Free all-in-one CRM vs enterprise powerhouse -- which fits your business?',
     verdict: 'HubSpot wins for most',
