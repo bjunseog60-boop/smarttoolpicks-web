@@ -1329,7 +1329,7 @@ export const guides: StyleGuide[] = [  {
         price: "$15/mo",
         url: "https://roamresearch.com",
         tag: "Power User",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/roam-research-brand.webp',
       },
     ],
   },
