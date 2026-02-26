@@ -685,7 +685,7 @@ export const guides: StyleGuide[] = [  {
         price: "Free (3 projects)",
         url: "https://www.figma.com/pricing/",
         tag: "Best for UI",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/figma-free.webp',
       },
       {
         name: "Adobe Express Free",
@@ -693,7 +693,7 @@ export const guides: StyleGuide[] = [  {
         price: "Free",
         url: "https://www.adobe.com/express/pricing",
         tag: "Adobe Users",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/adobe-express-free.webp',
       },
       {
         name: "Penpot",
@@ -701,7 +701,7 @@ export const guides: StyleGuide[] = [  {
         price: "Free",
         url: "https://penpot.app",
         tag: "Open Source",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/penpot-brand.webp',
       },
     ],
   },
@@ -937,7 +937,7 @@ export const guides: StyleGuide[] = [  {
         price: "$49/mo",
         url: "https://www.activecampaign.com/pricing",
         tag: "Best Automations",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/activecampaign-plus.webp',
       },
       {
         name: "ConvertKit Creator",
@@ -945,7 +945,7 @@ export const guides: StyleGuide[] = [  {
         price: "$25/mo",
         url: "https://convertkit.com/pricing",
         tag: "Creators",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/convertkit-creator.webp',
       },
       {
         name: "Mailchimp Standard",
@@ -953,7 +953,7 @@ export const guides: StyleGuide[] = [  {
         price: "$13/mo",
         url: "https://mailchimp.com/pricing/",
         tag: "Most Popular",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/mailchimp-standard.webp',
       },
       {
         name: "Drip",
@@ -961,7 +961,7 @@ export const guides: StyleGuide[] = [  {
         price: "$39/mo",
         url: "https://www.drip.com/pricing",
         tag: "Ecommerce",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/drip-brand.webp',
       },
     ],
   },
@@ -1121,7 +1121,7 @@ export const guides: StyleGuide[] = [  {
         price: "$99/mo",
         url: "https://surferseo.com/pricing/",
         tag: "Best Combo",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/surfer-seo-ai.webp',
       },
       {
         name: "Jasper Business",
