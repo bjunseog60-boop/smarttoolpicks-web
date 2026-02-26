@@ -174,12 +174,12 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-23',
     tag: 'Guide',
     emoji: '📝',
-    image: 'https://smarttoolpicks.net/images/guides/best-note-taking-apps-productivity-2026-hero.jpg',
+    image: '/images/guides/best-note-taking-apps-productivity-2026-hero.webp',
     affiliateProducts: [
-      { name: 'Evernote', brand: 'Evernote', price: '$14.99/mo', url: 'https://amzn.to/example', tag: 'Best Overall', image: 'https://smarttoolpicks.net/images/guides/best-note-taking-apps-productivity-2026-prod0.jpg' },
-      { name: 'Notion', brand: 'Notion', price: '$10/mo', url: 'https://amzn.to/example', tag: 'Best for Teams', image: 'https://smarttoolpicks.net/images/guides/best-note-taking-apps-productivity-2026-prod1.jpg' },
-      { name: 'Obsidian', brand: 'Obsidian', price: '$8/mo', url: 'https://amzn.to/example', tag: 'Best for Power Users', image: 'https://smarttoolpicks.net/images/guides/best-note-taking-apps-productivity-2026-prod2.jpg' },
-      { name: 'Microsoft OneNote', brand: 'Microsoft', price: '$0/mo', url: 'https://amzn.to/example', tag: 'Best Free Option', image: 'https://smarttoolpicks.net/images/guides/best-note-taking-apps-productivity-2026-prod3.jpg' },
+      { name: 'Evernote', brand: 'Evernote', price: '$14.99/mo', url: 'https://amzn.to/example', tag: 'Best Overall', image: '/images/guides/evernote-brand.webp' },
+      { name: 'Notion', brand: 'Notion', price: '$10/mo', url: 'https://amzn.to/example', tag: 'Best for Teams', image: '/images/guides/notion-brand.webp' },
+      { name: 'Obsidian', brand: 'Obsidian', price: '$8/mo', url: 'https://amzn.to/example', tag: 'Best for Power Users', image: '/images/guides/obsidian-brand.webp' },
+      { name: 'Microsoft OneNote', brand: 'Microsoft', price: '$0/mo', url: 'https://amzn.to/example', tag: 'Best Free Option', image: '/images/guides/microsoft-onenote-brand.webp' },
     ],
   },
 
@@ -539,7 +539,7 @@ export const guides: StyleGuide[] = [  {
         price: "$10.99/user/mo",
         url: "https://asana.com/pricing",
         tag: "Best for Devs",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/asana-premium.webp',
       },
       {
         name: "Monday Work OS",
@@ -547,7 +547,7 @@ export const guides: StyleGuide[] = [  {
         price: "$9/user/mo",
         url: "https://monday.com/pricing",
         tag: "Most Visual",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/monday-work-os.webp',
       },
       {
         name: "ClickUp",
@@ -555,7 +555,7 @@ export const guides: StyleGuide[] = [  {
         price: "$7/user/mo",
         url: "https://clickup.com/pricing",
         tag: "Best Value",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/clickup-placeholder.webp',
       },
       {
         name: "Trello Premium",
