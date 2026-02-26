@@ -39,6 +39,9 @@ export default function Footer() {
               <Link href="/privacy" className="block text-sm text-gray-400 hover:text-gray-600 transition-colors">Privacy Policy</Link>
               <Link href="/terms" className="block text-sm text-gray-400 hover:text-gray-600 transition-colors">Terms of Service</Link>
               <Link href="/affiliate-disclosure" className="block text-sm text-gray-400 hover:text-gray-600 transition-colors">Affiliate Disclosure</Link>
+              <Link href="/cookie-policy" className="block text-sm text-gray-400 hover:text-gray-600 transition-colors">Cookie Policy</Link>
+              <Link href="/dmca" className="block text-sm text-gray-400 hover:text-gray-600 transition-colors">DMCA</Link>
+              <Link href="/disclaimer" className="block text-sm text-gray-400 hover:text-gray-600 transition-colors">Disclaimer</Link>
             </div>
           </div>
         </div>
@@ -58,6 +61,10 @@ export default function Footer() {
             <Link href="/terms" className="text-xs text-gray-400 hover:text-gray-600 transition-colors">Terms</Link>
             <span className="text-gray-200">|</span>
             <Link href="/affiliate-disclosure" className="text-xs text-gray-400 hover:text-gray-600 transition-colors">Affiliate Disclosure</Link>
+            <span className="text-gray-200">|</span>
+            <Link href="/cookie-policy" className="text-xs text-gray-400 hover:text-gray-600 transition-colors">Cookies</Link>
+            <span className="text-gray-200">|</span>
+            <Link href="/dmca" className="text-xs text-gray-400 hover:text-gray-600 transition-colors">DMCA</Link>
             <span className="text-gray-200">|</span>
             <Link href="/about" className="text-xs text-gray-400 hover:text-gray-600 transition-colors">About</Link>
           </div>
