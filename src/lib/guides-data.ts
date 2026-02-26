@@ -1129,7 +1129,7 @@ export const guides: StyleGuide[] = [  {
         price: "$59/mo",
         url: "https://www.jasper.ai/pricing",
         tag: "SEO-First",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/jasper-business.webp',
       },
       {
         name: "Frase.io",
@@ -1137,7 +1137,7 @@ export const guides: StyleGuide[] = [  {
         price: "$15/mo",
         url: "https://www.frase.io/pricing/",
         tag: "Best Value",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/frase-io-brand.webp',
       },
       {
         name: "Copy.ai Pro",
@@ -1145,7 +1145,7 @@ export const guides: StyleGuide[] = [  {
         price: "$49/mo",
         url: "https://www.copy.ai/pricing",
         tag: "Easiest",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/copy-ai-pro.webp',
       },
     ],
   },
