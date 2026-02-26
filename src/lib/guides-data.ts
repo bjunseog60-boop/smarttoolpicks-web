@@ -1259,7 +1259,7 @@ export const guides: StyleGuide[] = [  {
         price: "$10/user/mo",
         url: "https://www.notion.so/pricing",
         tag: "Reviewed",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/notion-plus.webp',
       },
       {
         name: "Notion AI Add-on",
@@ -1267,7 +1267,7 @@ export const guides: StyleGuide[] = [  {
         price: "$8/user/mo extra",
         url: "https://www.notion.so/product/ai",
         tag: "AI Feature",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/notion-ai-addon.webp',
       },
       {
         name: "Obsidian",
@@ -1275,7 +1275,7 @@ export const guides: StyleGuide[] = [  {
         price: "Free",
         url: "https://obsidian.md",
         tag: "Alternative",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/obsidian-placeholder.webp',
       },
       {
         name: "Coda",
@@ -1283,7 +1283,7 @@ export const guides: StyleGuide[] = [  {
         price: "$10/doc maker/mo",
         url: "https://coda.io/pricing",
         tag: "More Power",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/coda-brand.webp',
       },
     ],
   },
@@ -1305,7 +1305,7 @@ export const guides: StyleGuide[] = [  {
         price: "$8/user/mo",
         url: "https://www.notion.so/pricing",
         tag: "Top Pick",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/notion-team-plan.webp',
       },
       {
         name: "Obsidian Sync",
@@ -1313,7 +1313,7 @@ export const guides: StyleGuide[] = [  {
         price: "$8/mo",
         url: "https://obsidian.md/pricing",
         tag: "Privacy-First",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/obsidian-sync.webp',
       },
       {
         name: "Logseq",
@@ -1321,7 +1321,7 @@ export const guides: StyleGuide[] = [  {
         price: "Free",
         url: "https://logseq.com",
         tag: "Open Source",
-        image: '/images/guides/placeholder.webp',
+        image: '/images/guides/logseq-brand.webp',
       },
       {
         name: "Roam Research",
