@@ -193,7 +193,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Comparison',
     emoji: '⚡',
-    image: '/images/guides/productivity-saas-2026.webp',
+    image: '/images/guides/zapier-vs-make-2026-hero.webp',
   },
   {
     slug: 'canva-vs-figma-2026',
@@ -204,7 +204,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Comparison',
     emoji: '🎨',
-    image: '/images/guides/design-software-uiux.webp',
+    image: '/images/guides/canva-vs-figma-2026-hero.webp',
   },
   {
     slug: 'hubspot-vs-mailchimp-2026',
@@ -237,7 +237,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Comparison',
     emoji: '📊',
-    image: '/images/guides/ai-productivity-tools.webp',
+    image: '/images/guides/airtable-vs-google-sheets-2026-hero.webp',
   },
   {
     slug: 'monday-vs-clickup-2026',
@@ -259,7 +259,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Comparison',
     emoji: '🖥️',
-    image: '/images/guides/design-software-uiux.webp',
+    image: '/images/guides/figma-vs-adobe-xd-2026-hero.webp',
   },
   {
     slug: 'google-workspace-vs-microsoft-365-2026',
@@ -305,7 +305,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '💼',
-    image: '/images/guides/ai-productivity-tools.webp',
+    image: '/images/guides/best-ai-tools-for-small-business-2026-hero.webp',
   },
   {
     slug: 'best-ai-video-generators-2026',
@@ -351,7 +351,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '⏱️',
-    image: '/images/guides/productivity-saas-2026.webp',
+    image: '/images/guides/best-time-tracking-apps-2026-hero.webp',
   },
   {
     slug: 'best-calendar-apps-2026',
@@ -373,7 +373,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '✅',
-    image: '/images/guides/productivity-saas-2026.webp',
+    image: '/images/guides/best-todo-list-apps-2026-hero.webp',
   },
   {
     slug: 'best-focus-apps-2026',
@@ -430,7 +430,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'Guide',
     emoji: '🌐',
-    image: '/images/guides/design-software-uiux.webp',
+    image: '/images/guides/best-website-builders-2026-hero.webp',
   },
   {
     slug: 'best-accounting-software-2026',
@@ -487,7 +487,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-26',
     tag: 'How-To',
     emoji: '🔄',
-    image: '/images/guides/productivity-saas-2026.webp',
+    image: '/images/guides/how-to-automate-workflows-2026-hero.webp',
   },
   {
     slug: 'best-free-alternatives-to-paid-software-2026',
@@ -1389,7 +1389,7 @@ export const guides: StyleGuide[] = [  {
     date: '2026-02-24',
     tag: "Comparison",
     emoji: "\ud83c\udfa5",
-    image: '/images/guides/zoom-vs-google-meet-2026-hero.jpg',
+    image: '/images/guides/zoom-vs-google-meet-2026-hero.webp',
     affiliateProducts: [
       {
         name: "Zoom Pro",
