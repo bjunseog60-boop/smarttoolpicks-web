@@ -2,7 +2,11 @@ import { AdSenseUnit, ViralVideoGrid } from '@/components/AdsAndVideos';
 import { notFound } from 'next/navigation';
 import SafeImage from '@/components/SafeImage';
 import Link from 'next/link';
+import GuideCard from '@/components/GuideCard';
+import TableOfContents from '@/components/TableOfContents';
 import { guides, getGuideBySlug } from '@/lib/guides-data';
+
+const generateId = (text: string) => text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 import { SITE_URL, SITE_NAME } from '@/lib/constants';
 import { guidesContent } from '@/lib/guides-content';
 import ShopTheLook from '@/components/ShopTheLook';
@@ -59,6 +63,19 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
     return price < min ? price : min;
   }, 999);
 
+  let wordCount = 0;
+  if (guidesContent[guide.slug]) {
+    guidesContent[guide.slug].forEach(section => {
+      wordCount += section.heading.split(/\s+/).length;
+      section.paragraphs.forEach(p => {
+        wordCount += p.split(/\s+/).length;
+      });
+    });
+  } else {
+    wordCount += guide.description.split(/\s+/).length;
+  }
+  const showTOC = wordCount > 1500;
+
   const articleJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -88,36 +105,40 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       {/* Product schema for rich snippets */}
       {products.map((p, i) => (
-        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'Product',
-          name: p.name,
-          brand: { '@type': 'Brand', name: p.brand },
-          image: p.image || guide.image || '',
-          description: `${p.name} by ${p.brand} — featured in ${guide.title}`,
-          offers: {
-            '@type': 'Offer',
-            price: p.price.replace('$', ''),
-            priceCurrency: 'USD',
-            availability: 'https://schema.org/InStock',
-            url: p.url,
-          },
-        }) }} />
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Product',
+            name: p.name,
+            brand: { '@type': 'Brand', name: p.brand },
+            image: p.image || guide.image || '',
+            description: `${p.name} by ${p.brand} — featured in ${guide.title}`,
+            offers: {
+              '@type': 'Offer',
+              price: p.price.replace('$', ''),
+              priceCurrency: 'USD',
+              availability: 'https://schema.org/InStock',
+              url: p.url,
+            },
+          })
+        }} />
       ))}
       {/* FAQ schema for search snippets */}
       {guidesContent[guide.slug] && guidesContent[guide.slug].length > 1 && (
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'FAQPage',
-          mainEntity: guidesContent[guide.slug].slice(0, 5).map(section => ({
-            '@type': 'Question',
-            name: section.heading.endsWith('?') ? section.heading : `What about ${section.heading.toLowerCase()}?`,
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: section.paragraphs[0] || guide.description,
-            },
-          })),
-        }) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: guidesContent[guide.slug].slice(0, 5).map(section => ({
+              '@type': 'Question',
+              name: section.heading.endsWith('?') ? section.heading : `What about ${section.heading.toLowerCase()}?`,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: section.paragraphs[0] || guide.description,
+              },
+            })),
+          })
+        }} />
       )}
 
       <article className="pt-8 max-w-3xl mx-auto">
@@ -177,52 +198,53 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
           </div>
         )}
 
-        {/* Table of Contents */}
-        {guidesContent[guide.slug] && (
-          <div className="border border-gray-100 rounded-xl p-5 mb-8 bg-white">
-            <h3 className="font-display font-bold text-sm text-gray-700 mb-3">In This Guide</h3>
-            <ul className="space-y-2">
-              {guidesContent[guide.slug].map((section, idx) => (
-                <li key={idx} className="flex items-center gap-2 text-sm text-gray-500">
-                  <span className="w-5 h-5 rounded-full bg-gray-100 text-gray-500 text-xs flex items-center justify-center font-medium">{idx + 1}</span>
-                  {section.heading}
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
-
         {/* Article Content */}
         <div className="prose-style">
           {guidesContent[guide.slug] ? (
-            guidesContent[guide.slug].map((section, idx) => (
-              <div key={idx}>
-                <h2>{section.heading}</h2>
-                {section.paragraphs.map((p, pIdx) => (
-                  <p key={pIdx}>{p}</p>
-                ))}
+            guidesContent[guide.slug].map((section, idx) => {
+              const headingId = generateId(section.heading);
+              return (
+                <div key={idx}>
+                  <h2 id={headingId}>{section.heading}</h2>
+                  {section.paragraphs.map((p, pIdx) => (
+                    <div key={pIdx}>
+                      <p dangerouslySetInnerHTML={{ __html: p }} />
+                      {idx === 0 && pIdx === 0 && showTOC && (
+                        <div className="not-prose my-8">
+                          <TableOfContents
+                            headings={guidesContent[guide.slug].map(s => ({
+                              text: s.heading,
+                              id: generateId(s.heading),
+                              level: 2
+                            }))}
+                          />
+                        </div>
+                      )}
+                    </div>
+                  ))}
 
-                {/* Mid-Article CTA after first section — hero with image */}
-                {idx === 0 && products.length > 0 && (
-                  <MidArticleCTA products={products} variant="hero" />
-                )}
+                  {/* Mid-Article CTA after first section — hero with image */}
+                  {idx === 0 && products.length > 0 && (
+                    <MidArticleCTA products={products} variant="hero" />
+                  )}
 
-                {/* In-Article AdSense after second section */}
-                {idx === 1 && (
-                  <AdUnit slot="7545186477" format="fluid" layout="in-article" />
-                )}
+                  {/* In-Article AdSense after second section */}
+                  {idx === 1 && (
+                    <AdUnit slot="7545186477" format="fluid" layout="in-article" />
+                  )}
 
-                {/* Mid-Article CTA after third section — pair */}
-                {idx === 2 && products.length > 1 && (
-                  <MidArticleCTA products={products.slice(1)} variant="pair" />
-                )}
+                  {/* Mid-Article CTA after third section — pair */}
+                  {idx === 2 && products.length > 1 && (
+                    <MidArticleCTA products={products.slice(1)} variant="pair" />
+                  )}
 
-                {/* Rectangle ad after 4th section */}
-                {idx === 3 && (
-                  <AdUnit slot="6237750336" format="rectangle" style={{ minHeight: 280 }} />
-                )}
-              </div>
-            ))
+                  {/* Rectangle ad after 4th section */}
+                  {idx === 3 && (
+                    <AdUnit slot="6237750336" format="rectangle" style={{ minHeight: 280 }} />
+                  )}
+                </div>
+              )
+            })
           ) : (
             <>
               <h2>Why This Guide Matters</h2>
@@ -252,20 +274,10 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
         {/* Related Guides */}
         {related.length > 0 && (
           <div className="mt-10 mb-8">
-            <h3 className="font-display font-bold text-gray-900 mb-4">You Might Also Like</h3>
-            <div className="grid gap-3">
+            <h3 className="font-display font-bold text-gray-900 mb-4">Related Posts</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               {related.map(r => (
-                <Link key={r.slug} href={`/guides/${r.slug}`} className="card-hover p-4 flex items-center gap-4 group">
-                  {r.image ? (
-                    <SafeImage src={r.image} alt={r.title} width={64} height={64} className="rounded-xl object-cover" />
-                  ) : (
-                    <div className="w-16 h-16 rounded-xl bg-gray-100" />
-                  )}
-                  <div className="flex-1">
-                    <p className="font-semibold text-sm text-gray-800 group-hover:text-gray-600 transition-colors">{r.title}</p>
-                    <p className="text-xs text-gray-400">{r.readTime} · {r.tag}</p>
-                  </div>
-                </Link>
+                <GuideCard key={r.slug} guide={r} />
               ))}
             </div>
           </div>
@@ -275,19 +287,9 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
         {moreGuides.length > 0 && (
           <div className="mb-8">
             <h3 className="font-display font-bold text-gray-900 mb-4">Explore More Guides</h3>
-            <div className="grid gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               {moreGuides.map(r => (
-                <Link key={r.slug} href={`/guides/${r.slug}`} className="card-hover p-4 flex items-center gap-4 group">
-                  {r.image ? (
-                    <SafeImage src={r.image} alt={r.title} width={64} height={64} className="rounded-xl object-cover" />
-                  ) : (
-                    <div className="w-16 h-16 rounded-xl bg-gray-100" />
-                  )}
-                  <div className="flex-1">
-                    <p className="font-semibold text-sm text-gray-800 group-hover:text-gray-600 transition-colors">{r.title}</p>
-                    <p className="text-xs text-gray-400">{r.readTime} · {r.tag}</p>
-                  </div>
-                </Link>
+                <GuideCard key={r.slug} guide={r} />
               ))}
             </div>
           </div>

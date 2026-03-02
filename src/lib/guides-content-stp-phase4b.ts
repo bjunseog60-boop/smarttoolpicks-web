@@ -131,7 +131,7 @@ export const stpPhase4bContent: Record<string, ContentSection[]> = {
   'best-todo-list-apps-2026': [
     { heading: 'Affiliate Disclosure', paragraphs: [disc] },
     {
-      heading: 'Best To-Do List Apps 2026: Todoist vs Things vs TickTick Compared',
+      heading: 'Best <a href="/guides/best-todo-list-apps-2026" className="text-blue-600 hover:underline inline font-medium">To-Do List</a> Apps 2026: Todoist vs Things vs TickTick Compared',
       paragraphs: [
         'The to-do list app market is crowded, and most options are honestly fine. The real question is which system fits your brain and workflow — not which has the longest feature list. After testing six apps over multiple months, here is what actually works.',
       ],
@@ -406,7 +406,7 @@ export const stpPhase4bContent: Record<string, ContentSection[]> = {
   'best-website-builders-2026': [
     { heading: 'Affiliate Disclosure', paragraphs: [disc] },
     {
-      heading: 'Best Website Builders 2026: Wix vs Squarespace vs Webflow vs WordPress',
+      heading: 'Best <a href="/guides/best-website-builders-2026" className="text-blue-600 hover:underline inline font-medium">Website Builders</a> 2026: Wix vs Squarespace vs Webflow vs WordPress',
       paragraphs: [
         'Website builders have converged significantly — nearly all of them can produce a professional-looking site without code. The differences that actually matter are: how much design control you need, whether you need e-commerce, how technical your team is, and what your growth ceiling looks like.',
       ],
@@ -674,7 +674,7 @@ export const stpPhase4bContent: Record<string, ContentSection[]> = {
   'how-to-automate-workflows-2026': [
     { heading: 'Affiliate Disclosure', paragraphs: [disc] },
     {
-      heading: 'How to Automate Your Business Workflows in 2026 (No-Code Guide)',
+      heading: 'How to Automate Your Business Workflows in 2026 (<a href="/guides/how-to-automate-workflows-2026" className="text-blue-600 hover:underline inline font-medium">No-Code</a> Guide)',
       paragraphs: [
         'Workflow automation is no longer a technical specialty. With tools like Zapier, Make, and n8n, anyone can automate repetitive processes without writing code. The challenge is not the tooling — it is knowing which processes to automate first and how to design automations that do not break silently.',
         'This guide covers the practical process for identifying, building, and maintaining business automations.',
@@ -772,7 +772,7 @@ export const stpPhase4bContent: Record<string, ContentSection[]> = {
     {
       heading: 'The Smartest Free Stack for Startups',
       paragraphs: [
-        '<strong>Communication:</strong> Slack Free. <strong>Docs:</strong> Notion Free. <strong>Project mgmt:</strong> Linear Free or Trello. <strong>Design:</strong> Canva Free + Figma Free. <strong>Email marketing:</strong> Brevo (300 emails/day free). <strong>Video calls:</strong> Google Meet. <strong>Forms:</strong> Tally. <strong>Accounting:</strong> Wave. <strong>CRM:</strong> HubSpot Free.',
+        '<strong>Communication:</strong> Slack Free. <strong>Docs:</strong> Notion Free. <strong>Project mgmt:</strong> Linear Free or Trello. <strong>Design:</strong> Canva Free + Figma Free. <strong><a href="/guides/best-email-marketing-platforms-2026" className="text-blue-600 hover:underline inline font-medium">Email marketing</a>:</strong> Brevo (300 emails/day free). <strong>Video calls:</strong> Google Meet. <strong>Forms:</strong> Tally. <strong>Accounting:</strong> Wave. <strong>CRM:</strong> HubSpot Free.',
         'This stack costs $0/month and handles most startup needs up to roughly 10 people.',
         'Related: <a href="/guides/best-free-ai-tools-2026" style="color:#6366f1;">Best Free AI Tools 2026</a> | <a href="/guides/how-to-choose-the-right-saas-tools-2026" style="color:#6366f1;">How to Choose the Right SaaS Tools</a>',
         disc,

@@ -150,9 +150,9 @@ export const stpPhase4aContent: Record<string, ContentSection[]> = {
   'hubspot-vs-mailchimp-2026': [
     { heading: 'Affiliate Disclosure', paragraphs: [disc] },
     {
-      heading: 'HubSpot vs Mailchimp 2026: Email Marketing and Beyond',
+      heading: 'HubSpot vs Mailchimp 2026: <a href="/guides/best-email-marketing-platforms-2026" className="text-blue-600 hover:underline inline font-medium">Email Marketing</a> and Beyond',
       paragraphs: [
-        'HubSpot and Mailchimp both handle email marketing, but HubSpot is a full CRM platform while Mailchimp is primarily an email and marketing tool. The comparison only makes sense in the context of what you actually need.',
+        'HubSpot and Mailchimp both handle email marketing, but HubSpot is a full <a href="/guides/best-crm-software-small-business-2026" className="text-blue-600 hover:underline inline font-medium">CRM</a> platform while Mailchimp is primarily an email and marketing tool. The comparison only makes sense in the context of what you actually need.',
       ],
     },
     {
@@ -210,7 +210,7 @@ export const stpPhase4aContent: Record<string, ContentSection[]> = {
     {
       heading: 'Trello vs Asana 2026: Which Project Management Tool Wins?',
       paragraphs: [
-        'Trello and Asana are both widely used project management tools with strong free plans. The difference is in depth: Trello starts simple and stays relatively simple, while Asana starts simple but scales to complex organizational needs.',
+        'Trello and Asana are both widely used <a href="/guides/best-project-management-tools-2026" className="text-blue-600 hover:underline inline font-medium">project management tools</a> with strong free plans. The difference is in depth: Trello starts simple and stays relatively simple, while Asana starts simple but scales to complex organizational needs.',
       ],
     },
     {
@@ -517,7 +517,7 @@ export const stpPhase4aContent: Record<string, ContentSection[]> = {
             <th style="padding:10px;text-align:center;border:1px solid #e0e7ff;">Starting Price</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:10px;border:1px solid #e0e7ff;">AI writing / content</td><td style="padding:10px;border:1px solid #e0e7ff;">Claude / ChatGPT</td><td style="padding:10px;text-align:center;border:1px solid #e0e7ff;">Free / $20/mo</td></tr>
+            <tr><td style="padding:10px;border:1px solid #e0e7ff;"><a href="/guides/best-ai-writing-assistants-2026" className="text-blue-600 hover:underline inline font-medium">AI writing</a> / content</td><td style="padding:10px;border:1px solid #e0e7ff;">Claude / ChatGPT</td><td style="padding:10px;text-align:center;border:1px solid #e0e7ff;">Free / $20/mo</td></tr>
             <tr style="background:#f9fafb;"><td style="padding:10px;border:1px solid #e0e7ff;">Customer support</td><td style="padding:10px;border:1px solid #e0e7ff;">Intercom AI / Tidio</td><td style="padding:10px;text-align:center;border:1px solid #e0e7ff;">$29/mo</td></tr>
             <tr><td style="padding:10px;border:1px solid #e0e7ff;">Meeting notes</td><td style="padding:10px;border:1px solid #e0e7ff;">Otter.ai / Fireflies</td><td style="padding:10px;text-align:center;border:1px solid #e0e7ff;">Free / $10/mo</td></tr>
             <tr style="background:#f9fafb;"><td style="padding:10px;border:1px solid #e0e7ff;">Image creation</td><td style="padding:10px;border:1px solid #e0e7ff;">Adobe Firefly / Canva AI</td><td style="padding:10px;text-align:center;border:1px solid #e0e7ff;">Free / $15/mo</td></tr>

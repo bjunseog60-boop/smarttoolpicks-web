@@ -8,11 +8,25 @@ export const metadata: Metadata = {
 
 const comparisons = [
   {
+    slug: 'notion-vs-asana',
+    title: 'Notion vs Asana',
+    subtitle: 'All-in-one workspace vs pure project management -- which fits your workflow?',
+    verdict: 'Notion wins for docs-heavy teams',
+    tags: ['Productivity', 'Project Management'],
+  },
+  {
     slug: 'notion-vs-clickup',
     title: 'Notion vs ClickUp',
     subtitle: 'Docs-first vs task-first -- which all-in-one workspace actually wins?',
     verdict: 'ClickUp edges ahead',
     tags: ['Productivity', 'Project Management'],
+  },
+  {
+    slug: 'clickup-vs-monday',
+    title: 'ClickUp vs Monday.com',
+    subtitle: 'Feature-packed powerhouse vs visual simplicity -- tested side by side',
+    verdict: 'ClickUp edges ahead on features',
+    tags: ['Project Management', 'Productivity'],
   },
   {
     slug: 'monday-vs-asana',
@@ -22,11 +36,39 @@ const comparisons = [
     tags: ['Project Management', 'Productivity'],
   },
   {
+    slug: 'slack-vs-microsoft-teams',
+    title: 'Slack vs Microsoft Teams',
+    subtitle: 'Startup favorite vs enterprise standard -- honest comparison after daily use',
+    verdict: 'Slack wins on integrations',
+    tags: ['Communication', 'Productivity'],
+  },
+  {
+    slug: 'canva-vs-figma',
+    title: 'Canva vs Figma',
+    subtitle: 'Quick design tool vs professional UI platform -- which one do you need?',
+    verdict: 'Depends on your skill level',
+    tags: ['Design', 'Creative Tools'],
+  },
+  {
+    slug: 'hubspot-vs-mailchimp',
+    title: 'HubSpot vs Mailchimp',
+    subtitle: 'Full CRM suite vs email marketing specialist -- where should you invest?',
+    verdict: 'HubSpot wins for growth teams',
+    tags: ['CRM', 'Marketing'],
+  },
+  {
     slug: 'hubspot-vs-salesforce',
     title: 'HubSpot vs Salesforce',
     subtitle: 'Free all-in-one CRM vs enterprise powerhouse -- which fits your business?',
     verdict: 'HubSpot wins for most',
     tags: ['CRM', 'Sales'],
+  },
+  {
+    slug: 'zapier-vs-make',
+    title: 'Zapier vs Make',
+    subtitle: 'Simple automations vs complex workflows -- which saves more time?',
+    verdict: 'Zapier wins on ease of use',
+    tags: ['Automation', 'Productivity'],
   },
 ];
 

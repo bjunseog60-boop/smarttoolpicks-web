@@ -40,7 +40,10 @@ export default function GuideCard({ guide }: { guide: StyleGuide }) {
         <h3 className="font-display font-bold text-gray-900 group-hover:text-gray-600 transition-colors mb-2 leading-snug">
           {guide.title}
         </h3>
-        <p className="text-sm text-gray-400 line-clamp-2 mb-3">{guide.description}</p>
+        <p className="text-sm text-gray-400 line-clamp-2 mb-2">{guide.description}</p>
+        <p className="text-xs text-gray-500 mb-2">
+          {new Date(guide.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+        </p>
         {guide.affiliateProducts && guide.affiliateProducts.length > 0 && (
           <div className="flex items-center gap-3">
             {/* Product thumbnails */}
